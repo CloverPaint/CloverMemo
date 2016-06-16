@@ -669,4 +669,114 @@
 \n
     </string>
 
+    <string name="B12421">
+\n
+□ version 1.24.21\n
+\n
+- いくつかのバグを修正\n
+\n
+    </string>
+
+    <string name="B12422">
+\n
+□ version 1.24.22\n
+\n
+- いくつかのバグを修正\n
+\n
+    </string>
+
+    <string name="B12423">
+\n
+□ version 1.24.23\n
+\n
+- いくつかのバグを修正\n
+\n
+    </string>
+
+    <string name="B12424">
+\n
+□ version 1.24.24\n
+\n
+- [メモ] レイヤーリストを追加\n
+- [メモ] 移動ツールを追加\n
+- [メモ/Paint] 範囲移動ツールを実装\n
+\n
+    </string>
+
+    <string name="B12427">
+\n
+□ version 1.24.27\n
+\n
+- 起動シーケンスとI/O処理を改善\n
+\n
+    </string>
+
+    <string name="B12428">
+\n
+□ version 1.24.28\n
+\n
+- バグ修正
+\n
+    </string>
+
+    <string name="B12482">
+\n
+□ version 1.24.82\n
+\n
+- ストローク遅延レンダを実装\n
+- 大きな画像を表示した時のパフォーマンスを改善\n
+- 縮小制限を10%まで緩和\n
+- バグを修正\n
+- タブレット用UI(EfT)を6月末日まで試用可能に\n
+\n
+    </string>
+
+    <string name="B12483">
+\n
+□ version 1.24.83\n
+\n
+- 一部端末でブラシパターンのロードに失敗していたバグを修正\n
+\n
+    </string>
+
+    <string name="B12484">
+\n
+□ version 1.24.84\n
+\n
+- ブラシ設定のバグ修正\n
+\n
+    </string>
+
+    <string name="B12485">
+\n
+□ version 1.24.85\n
+\n
+- overlay合成のバグ修正\n
+\n
+    </string>
+
+    <string name="B12486">
+\n
+□ version 1.24.86\n
+\n
+- EfT版レイヤーウィンドウのバグを修正\n
+\n
+    </string>
+
+    <string name="B12487">
+\n
+□ version 1.24.87\n
+\n
+- いくつかのバグ修正と改善\n
+\n
+    </string>
+
+    <string name="B12488">
+\n
+□ version 1.24.88\n
+\n
+- バグ修正\n
+\n
+    </string>
+
 </resources>

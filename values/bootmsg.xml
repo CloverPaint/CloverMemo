@@ -669,4 +669,114 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12421">
+\n
+□ version 1.24.21\n
+\n
+- Some bugs are fixed\n
+\n
+    </string>
+
+    <string name="B12422">
+\n
+□ version 1.24.22\n
+\n
+- Some bugs are fixed\n
+\n
+    </string>
+
+    <string name="B12423">
+\n
+□ version 1.24.23\n
+\n
+- Some bugs are fixed\n
+\n
+    </string>
+
+    <string name="B12424">
+\n
+□ version 1.24.24\n
+\n
+- [Memo] Added the Layer list\n
+- [Memo] Added the Move tool\n
+- [Memo/Paint] Implemented the AreaMove tool\n
+\n
+    </string>
+
+    <string name="B12427">
+\n
+□ version 1.24.27\n
+\n
+- Improve the boot sequence and I/O processing\n
+\n
+    </string>
+
+    <string name="B12428">
+\n
+□ version 1.24.28\n
+\n
+- Some bugs are fixed
+\n
+    </string>
+
+    <string name="B12482">
+\n
+□ version 1.24.82\n
+\n
+- Implemented the Render Delay Strokes\n
+- Improved performance of the view of the large image on the canvas\n
+- Relieved limit of the Minimum zoom to 10%\n
+- Some bugs are fixed\n
+- EfT extension can use trial until June 30\n
+\n
+    </string>
+
+    <string name="B12483">
+\n
+□ version 1.24.83\n
+\n
+- Fixed a bug that failed to load the brush pattern on some terminal\n
+\n
+    </string>
+
+    <string name="B12484">
+\n
+□ version 1.24.84\n
+\n
+- Fixed bugs of the brush setting\n
+\n
+    </string>
+
+    <string name="B12485">
+\n
+□ version 1.24.85\n
+\n
+- Fixed bug of the overlay blend mode\n
+\n
+    </string>
+
+    <string name="B12486">
+\n
+□ version 1.24.86\n
+\n
+- Fixed bug of the layer window of the EfT\n
+\n
+    </string>
+
+    <string name="B12487">
+\n
+□ version 1.24.87\n
+\n
+ - Some bug fix and improvement\n
+\n
+    </string>
+
+    <string name="B12488">
+\n
+□ version 1.24.88\n
+\n
+- Some bugs are fixed\n
+\n
+    </string>
+
 </resources>

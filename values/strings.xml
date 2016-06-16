@@ -5,8 +5,9 @@
     <string name="app_memo_lite_stylus_name">Clover Memo Lite(for Stylus)</string>
     <string name="app_debug_name">Clover Memo(debug)</string>
     <string name="app_paint_name">Clover Paint</string>
-    <string name="app_test_name">Clover Test(deb)</string>
-    <string name="app_test_rel_name">Clover Test(rel)</string>
+    <string name="app_test_name">CLOVERt</string>
+    <string name="app_test_rel_name">CLOVERtr</string>
+    <string name="app_paint_ex64">CLOVERex64</string>
     <string name="app_memo_desc">CloverMemo</string>
     <string name="app_memo_lite_desc">CloverMemoLite</string>
     <string name="app_memo_lite_stylus_desc">CloverMemoLiteStylus</string>
@@ -32,9 +33,6 @@
     <string name="MainOption_FixEventInterval_None">Use as is, event intervals</string>
     <string name="MainOption_FixEventInterval_16ms">Event intervals are fixed at 16ms</string>
     <string name="MainOption_FixEventInterval_8ms">Event intervals are fixed at 8ms</string>
-    <string name="MainOption_UpdateDispMode_Name">Update display mode</string>
-    <string name="MainOption_UpdateDispMode_On">Update by worker thread</string>
-    <string name="MainOption_UpdateDispMode_Off">Update by main thread</string>
     <string name="MainOption_DispTileDelay_Name">Use canvas view delay</string>
     <string name="MainOption_DispTileDelay_On">Skip tiles blend update, and defer to the next</string>
     <string name="MainOption_DispTileDelay_Off">Wait tiles blend update by using blocking</string>
@@ -71,12 +69,39 @@
     <string name="MainOption_UseUIofEfT_On">Use the extension UI for tablets with digitizers (requires reboot)</string>
     <string name="MainOption_UseUIofEfT_Off">Use the default UI (requires reboot)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">Need to purchase a [Extension for Tablet] in order to use it</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until April 30, 2014.</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until June 30, 2016.</string>
     <string name="MainOption_BuyEfTKey">Buy it</string>
     <string name="MainOption_UseLimitedLicense">Try out</string>
     <string name="MainOption_ExtendBrush_Name">Extend pen setting</string>
     <string name="MainOption_ExtendBrush_On">Paint version setting is enable(*deprecated)</string>
     <string name="MainOption_ExtendBrush_Off">Paint version setting is disable</string>
+
+    <string name="MainOption_SplitDelayStrokes_Name">Render Delay Strokes</string>
+    <string name="MainOption_DsDummySprites_Name">View sprites</string>
+    <string name="MainOption_DsDummySprites_On">Draw strokes by sprites</string>
+    <string name="MainOption_DsDummySprites_Off">Not draw sprites</string>
+    <string name="MainOption_DsDispFixColor_Name">Fix sprites color</string>
+    <string name="MainOption_DsDispFixColor_On">Fixed color of the sprites</string>
+    <string name="MainOption_DsDispFixColor_Off">The color of the sprites is set to the brush color</string>
+    <string name="MainOption_DsSpritesColor_Name">Sprites color</string>
+    <string name="MainOption_DsSpritesColor_Desc">Setting of the sprites color of the fix mode</string>
+    <string name="MainOption_DsProvStroke_Name">Provisional stroke</string>
+    <string name="MainOption_DsProvStroke_On">Draw sprites that not determined stroke by interpolation</string>
+    <string name="MainOption_DsProvStroke_Off">Not draw provisional stroke</string>
+    <string name="MainOption_DsPredStroke_Name">Prediction stroke</string>
+    <string name="MainOption_DsPredStroke_On">Draw sprites that prediction stroke</string>
+    <string name="MainOption_DsPredStroke_Off">Not draw prediction stroke</string>
+    <string name="MainOption_DsCursor_Name">Stroke cursor</string>
+    <string name="MainOption_DsCursor_On">Draw cursor of the location of the current rendering of the delay stroke</string>
+    <string name="MainOption_DsCursor_Off">Not draw cursor</string>
+    <string name="MainOption_DsCursorDelayMs_Name">The threshold delay time of the cursor of the begin show(ms)</string>
+    <string name="MainOption_DsProgressBar_Name">Progress bar</string>
+    <string name="MainOption_DsProgressBar_On">Draw the progress bar that rendering of the delay strokes</string>
+    <string name="MainOption_DsProgressBar_Off">Not draw the progress bar</string>
+    <string name="MainOption_DsAsyncStroke_Name">Multi delay strokes</string>
+    <string name="MainOption_DsAsyncStroke_On">Enabled draw next strokes without wait a current stroke rendering finished</string>
+    <string name="MainOption_DsAsyncStroke_Off">Wait rendering finished each strokes</string>
+
     <string name="MainOption_PenSlideMode_Name">Pointer Setting</string>
     <string name="MainOption_PenSlideMode_Right">Finger (Right-handed)</string>
     <string name="MainOption_PenSlideMode_Left">Finger(Left-handed)</string>
@@ -134,11 +159,14 @@
     <string name="MainOption_PinchIndication_On">Display parameter text while zooming/rotating</string>
     <string name="MainOption_PinchIndication_Off">Do not display parameter text while zooming/rotating</string>
     <string name="MainOption_ScaleMinLimit_Name" >Minimum Zoom Level</string>
+    <string name="MainOption_ScaleMinLimit10" >10%</string>
+    <string name="MainOption_ScaleMinLimit15" >15%</string>
+    <string name="MainOption_ScaleMinLimit25" >25%</string>
     <string name="MainOption_ScaleMinLimit50" >50%</string>
     <string name="MainOption_ScaleMinLimit75" >75%</string>
     <string name="MainOption_ScaleMinLimit100" >100%</string>
     <string name="MainOption_ScaleMinLimit150" >150%</string>
-    <string name="MainOption_ScaleMinLimit200" >200% times</string>
+    <string name="MainOption_ScaleMinLimit200" >200%</string>
     <string name="MainOption_ExtMinLimitByEditRect_Name" >Extend Minimum Zoom Level</string>
     <string name="MainOption_ExtMinLimitByEditRect_On">Allow zooming out further for large canvases (requires reboot)</string>
     <string name="MainOption_ExtMinLimitByEditRect_Off">Do not adjust minimum zoom by canvas size (requires reboot)</string>
@@ -353,6 +381,11 @@
     <string name="MoveCutAndPaste_Undo">-</string>
     <string name="MoveCopyAndPaste_Undo">-</string>
 
+    <string name="NewPlaneBase_TagName">no name</string>
+    <string name="NewPlaneImage_TagName">new image</string>
+    <string name="NewPlaneGray_TagName">new grayscale</string>
+    <string name="NewPlaneFolder_TagName">new folder</string>
+
     <string name="MBtnFile_File">File</string>
     <string name="MBtnFile_Save">Save</string>
     <string name="MBtnFile_SaveClover">+Save</string>
@@ -384,6 +417,7 @@
     <string name="MBtnTool_Bucket">Bucket</string>
     <string name="MBtnTool_Image">Image</string>
     <string name="MBtnTool_Move">Move</string>
+    <string name="MBtnTool_AreaMove">AreaMove</string>
     <string name="MBtnTool_SelRect">Sel.rect</string>
     <string name="MBtnTool_SelEllipse">Sel.ellipse</string>
     <string name="MBtnTool_SelFree">Sel.free</string>
@@ -458,8 +492,10 @@
     <string name="MBtnImage_FlipDialog">Reversing the color of the edit-layer</string>
     <string name="MBtnImage_LinearDialog">Processing to linear of the image-layer</string>
     <string name="MBtnImage_MergeDownDialog">Processing merge down</string>
+    <string name="MBtnImage_MergeDownOnlyDialog">Processing merge…</string>
     <string name="MBtnImage_MergeAllDialog">Processing merge all</string>
     <string name="MBtnImage_CutAndPasteDialog">Processing Cut&amp;Paste</string>
+    <string name="MBtnImage_CutOnlyDialog">Processing Cut</string>
     <string name="MBtnImage_CopyAndPasteDialog">Processing Copy&amp;Paste</string>
     <string name="MBtnImage_MergeDialog">Processing merge down</string>
     <string name="MBtnImage_SwapPlane">Swapped the edit-layer with the image-layer</string>
@@ -657,13 +693,9 @@
     <string name="MBtnView_DockINaviView">Navi</string>
     <string name="MBtnView_DockIHistory">History</string>
 
-    <string name="MBtnMove_Apply">Apply</string>
-    <string name="MBtnMove_Mode">Mode</string>
-    <string name="MBtnMove_Filter">Filter</string>
-    <string name="MBtnMove_Modify">Modify</string>
-    <string name="MBtnMove_Return">Return</string>
     <string name="MBtnMove_Tool">Move</string>
     <string name="MBtnMove_AddClover">+Move</string>
+    <string name="MBtnMove_Return">Return</string>
     <string name="MBtnMove_SelTool">Sel.tool</string>
     <string name="MBtnMove_SelToolMove">Move</string>
     <string name="MBtnMove_SelToolTransform">Transform</string>
@@ -677,12 +709,17 @@
     <string name="MoveRebar_FlipV">Flip.V</string>
     <string name="MoveRebar_Init">Reset</string>
 
+    <string name="MBtnAreaMove_Apply">Apply</string>
+    <string name="MBtnAreaMove_AddClover">+AreaMove</string>
+
     <string name="MBtnTransform_Tool">Transform</string>
     <string name="MBtnTransform_AddClover">+Transform</string>
     <string name="MBtnTransform_Return">Return</string>
     <string name="MBtnTransform_SelTool">Sel.tool</string>
     <string name="MBtnTransform_SelToolMove">Move</string>
     <string name="MBtnTransform_SelToolTransform">Transform</string>
+
+    <string name="MBtnLayerTree_Return">Return</string>
 
     <string name="TransformRebar_Apply">Apply</string>
     <string name="TransformRebar_ApplyAndMerge">+Merge</string>
@@ -898,6 +935,7 @@
 
     <string name="ToolDock_LayerList_BarOpacity">Opacity</string>
     <string name="ToolDock_LayerInfo_BtnVisible">Visible</string>
+    <string name="ToolDock_LayerInfo_BtnFolderType">Folder type</string>
     <string name="ToolDock_LayerInfo_BtnPlaneLock">Plane lock</string>
     <string name="ToolDock_LayerInfo_BtnAlphaLock">Alpha lock</string>
     <string name="ToolDock_LayerInfo_BtnColorBlend">Blend:Color</string>
@@ -992,6 +1030,14 @@
     <string name="ToolDock_ClvBoxLocal_UseSmallIconTrue">Using small size icon</string>
     <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">Using normal size icon</string>
     <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">The clover dropped in this window is saved to the image local</string>
+    
+    <string name="LayerTreeActionMenu_ModeSwitch">go Tree</string>
+    <string name="LayerTreeActionMenu_Run">Run</string>
+    <string name="LayerTreeActionMenu_Apply">Apply</string>
+    <string name="LayerTreeActionMenu_Return">Return</string>
+    
+    <string name="LayerTreeSecondPane_ModeSwitch">go Action</string>
+    <string name="LayerTreeSecondPane_Return">Return</string>
     
     <string name="PSEditBrush_BtnPick">Pick</string>
     <string name="PSEditBrush_BtnMove">Move</string>
@@ -1103,6 +1149,7 @@
     <string name="Core_ConfirmTakeOverMemoDialog">Confirm take over Memo version</string>
     <string name="Core_ConfirmInitEndRebootDialog">Need reboot</string>
     <string name="Core_ConfirmApplyKeyConfDialog">Confirm apply of key settings</string>
+    <string name="GmMain_ProcessingDrawDelayStrokes">Processing to draw the Delay Strokes</string>
     <string name="StyleOption_ConfirmResetCal">Comfirm reset data</string>
 
     <string name="EventGallery_DeleteFileDialog">Confirm delete image file</string>
@@ -1173,6 +1220,7 @@
     <string name="Tool_SelFree_CloverLabel"			>Sel.free</string>
     <string name="Tool_SelAuto_CloverLabel"			>Sel.auto</string>
     <string name="Tool_Move_CloverLabel"			>Move</string>
+    <string name="Tool_AreaMove_CloverLabel"		>AreaMove</string>
     <string name="Tool_Trans_CloverLabel"			>Trans</string>
     <string name="Tool_PSEditSimple_CloverLabel"	>PS.Edit</string>
     <string name="Tool_PSEditDetail_CloverLabel"	>PSE(Dtl)</string>
@@ -1271,9 +1319,10 @@
     <string name="BucketSetting_ThrsModeStopThrsColor">Stop Threshold color</string>
     <string name="BucketSetting_ThrsModeStopThrsAlpha">Stop Threshold alpha</string>
 
-    <string name="BucketSetting_ThrsPlane">Threshold source layer</string>
+    <string name="BucketSetting_ThrsPlane">Threshold source layer (use a mask reference)</string>
     <string name="BucketSetting_ThrsEdit">Check by the edit-layer colors</string>
     <string name="BucketSetting_ThrsVisible">Check by the visible colors</string>
+    <string name="BucketSetting_ForceThrsEdit">Check by the edit-layer colors (never reference a mask)</string>
     <string name="BucketSetting_FuzzyRange">Tolerance</string>
     <string name="BucketSetting_FuzzyMode">Tolerance determination mode</string>
     <string name="BucketSetting_FuzzyModeNear">Near the threshold color</string>
@@ -1491,6 +1540,9 @@
     <string name="LayerSetting_Visible">Visible</string>
     <string name="LayerSetting_VisibleTrue">Visible a layer</string>
     <string name="LayerSetting_VisibleFalse">Not visible a layer</string>
+    <string name="LayerSetting_FolderType">Folder type</string>
+    <string name="LayerSetting_FolderTypeGroup">Only grouping</string>
+    <string name="LayerSetting_FolderTypeImage">Merged and treat as an image</string>
     <string name="LayerSetting_Opacity">Opacity</string>
     <string name="LayerSetting_BlendTypeColor">Blend:Color</string>
     <string name="LayerSetting_BlendTypeAlpha">Blend:Alpha</string>
@@ -1502,8 +1554,9 @@
     <string name="LayerSetting_AlphaLockFalse">Allow user to edit opacity</string>
     <string name="LayerSetting_MaskType">Clipping group type</string>
     <string name="LayerSetting_MaskTypeNone">Not clipping</string>
-    <string name="LayerSetting_MaskTypeDown">Masked by the opacity of a lower layer</string>
     <string name="LayerSetting_MaskTypeMerge">Masked by the opacity of merged lower layers</string>
+    <string name="LayerSetting_MaskTypeDown">Masked by the opacity of a lower layer</string>
+    <string name="LayerSetting_MaskTypeDownAndClip">Masked by a lower layer and merged its</string>
     <string name="CanvasSetting_PlaneMode">Layer Construction</string>
     <string name="CanvasSetting_PlaneModeTransparent">Only transpalent layer</string>
     <string name="CanvasSetting_PlaneModeSingleColor">Only single-color layer</string>
@@ -1528,6 +1581,7 @@
     <string name="CanvasSetting_SaveBtn">Set to default</string>
 
     <string name="LayerList_OpenBtn">Layer</string>
+    <string name="LayerList_QMaskBtn">Q.Mask</string>
     <string name="LayerParam_VisibleBtn">Visible</string>
     <string name="LayerParam_SettingBtn">Setting</string>
     <string name="LayerParam_OpacityDesc">Layer opacity</string>
@@ -1666,6 +1720,7 @@
     <string name="CmOpType_spuitGetASus"	>Get opacity: Sustain current(A sustain)</string>
     <string name="CmOpType_spuitFromMerge"	>Get from: Visible color(except BG)</string>
     <string name="CmOpType_spuitFromCur"	>Get from: Selecting layer</string>
+    <string name="CmOpType_toggleQuickMask"	>Toggle Quick Mask mode</string>
     <string name="CmOpType_viewLayerList"	>Switch view of Layer list</string>
     <string name="CmOpType_chgView3Mode"	>Select the view mode(3 modes)</string>
     <string name="CmOpType_chgView2Mode"	>Select the view mode(2 modes)</string>
@@ -1719,6 +1774,7 @@
     <string name="CmOpType_selSelEmpty"		>Clear select area</string>
     <string name="CmOpType_selSelFlip"		>Flip select area</string>
     <string name="CmOpType_selMoveTool"		>Select move tool</string>
+    <string name="CmOpType_selAreaMoveTool"	>Select area move tool</string>
     <string name="CmOpType_selTransTool"	>Select transform tool</string>
     <string name="CmOpType_selCutAndPaste"	>Run Cut&amp;Paste</string>
     <string name="CmOpType_selCopyAndPaste"	>Run Copy&amp;Paste</string>

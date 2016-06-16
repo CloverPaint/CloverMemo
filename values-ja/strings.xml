@@ -5,8 +5,9 @@
     <string name="app_memo_lite_stylus_name">Cloverメモ Lite(for Stylus)</string>
     <string name="app_debug_name">Cloverメモ(debug)</string>
     <string name="app_paint_name">Clover Paint</string>
-    <string name="app_test_name">Clover Test(deb)</string>
-    <string name="app_test_rel_name">Clover Test(rel)</string>
+    <string name="app_test_name">CLOVERt</string>
+    <string name="app_test_rel_name">CLOVERtr</string>
+    <string name="app_paint_ex64">CLOVERex64</string>
     <string name="app_memo_desc">CloverMemo</string>
     <string name="app_memo_lite_desc">CloverMemoLite</string>
     <string name="app_memo_lite_stylus_desc">CloverMemoLiteStylus</string>
@@ -32,9 +33,6 @@
     <string name="MainOption_FixEventInterval_None">受け取ったタッチイベント間隔をそのまま利用</string>
     <string name="MainOption_FixEventInterval_16ms">タッチイベント間隔を強制的に16msとして扱う</string>
     <string name="MainOption_FixEventInterval_8ms">タッチイベント間隔を強制的に8msとして扱う</string>
-    <string name="MainOption_UpdateDispMode_Name">描画の更新</string>
-    <string name="MainOption_UpdateDispMode_On">ワーカースレッドで行う</string>
-    <string name="MainOption_UpdateDispMode_Off">メインスレッドで行う</string>
     <string name="MainOption_DispTileDelay_Name">キャンバス表示の遅延を利用</string>
     <string name="MainOption_DispTileDelay_On">未完了の処理をスキップして次回表示する</string>
     <string name="MainOption_DispTileDelay_Off">未完了の処理をブロックして待つ</string>
@@ -71,12 +69,39 @@
     <string name="MainOption_UseUIofEfT_On">デジタイザー付きタブレット用のUIを利用(*要再起動)</string>
     <string name="MainOption_UseUIofEfT_Off">通常のUIを利用(*要再起動)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">「タブレット用機能拡張」の購入が必要な機能です</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2014年4月30日まで試用可能</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2016年6月30日まで試用可能</string>
     <string name="MainOption_BuyEfTKey">購入手続きへ</string>
     <string name="MainOption_UseLimitedLicense">試用する</string>
     <string name="MainOption_ExtendBrush_Name">ペンブラシ設定拡張</string>
     <string name="MainOption_ExtendBrush_On">Paint版ブラシ設定を有効にする(*将来廃止)</string>
     <string name="MainOption_ExtendBrush_Off">Paint版ブラシ設定を無効にする</string>
+
+    <string name="MainOption_SplitDelayStrokes_Name">ストローク遅延レンダ</string>
+    <string name="MainOption_DsDummySprites_Name">スプライト表示</string>
+    <string name="MainOption_DsDummySprites_On">ダミースプライトによるストローク表示を行う</string>
+    <string name="MainOption_DsDummySprites_Off">ダミースプライトによるストロークは表示しない</string>
+    <string name="MainOption_DsDispFixColor_Name">スプライト色の固定</string>
+    <string name="MainOption_DsDispFixColor_On">スプライト表示色を固定する</string>
+    <string name="MainOption_DsDispFixColor_Off">スプライトを現在のブラシ色にする</string>
+    <string name="MainOption_DsSpritesColor_Name">スプライト表示色</string>
+    <string name="MainOption_DsSpritesColor_Desc">固定設定時のスプライトの色を設定</string>
+    <string name="MainOption_DsProvStroke_Name">暫定ストローク</string>
+    <string name="MainOption_DsProvStroke_On">補間処理で確定していないストロークをスプライトで表示</string>
+    <string name="MainOption_DsProvStroke_Off">暫定ストロークは表示しない</string>
+    <string name="MainOption_DsPredStroke_Name">ストローク予測</string>
+    <string name="MainOption_DsPredStroke_On">予測したストロークをスプライトで表示</string>
+    <string name="MainOption_DsPredStroke_Off">ストローク予測は表示しない</string>
+    <string name="MainOption_DsCursor_Name">ストローク遅延カーソル</string>
+    <string name="MainOption_DsCursor_On">ストローク遅延レンダリングの現在位置をカーソルで表示</string>
+    <string name="MainOption_DsCursor_Off">ストローク遅延レンダリングのカーソルは表示しない</string>
+    <string name="MainOption_DsCursorDelayMs_Name">ストローク遅延カーソルの表示を始める遅延時間(ms)</string>
+    <string name="MainOption_DsProgressBar_Name">ストローク遅延レンダ進行バー</string>
+    <string name="MainOption_DsProgressBar_On">ストローク遅延レンダの進行バーを表示する</string>
+    <string name="MainOption_DsProgressBar_Off">ストローク遅延レンダの進行バーは表示しない</string>
+    <string name="MainOption_DsAsyncStroke_Name">マルチ・ストローク遅延</string>
+    <string name="MainOption_DsAsyncStroke_On">遅延レンダリング完了を待たず次のストロークを描画可能にする</string>
+    <string name="MainOption_DsAsyncStroke_Off">ストローク毎に遅延レンダリングの完了を待つ</string>
+
     <string name="MainOption_PenSlideMode_Name">ペン先表示</string>
     <string name="MainOption_PenSlideMode_Right">指先用(右利き)</string>
     <string name="MainOption_PenSlideMode_Left">指先用(左利き)</string>
@@ -134,6 +159,9 @@
     <string name="MainOption_PinchIndication_On">回転/倍率のパラメータテキストを表示する</string>
     <string name="MainOption_PinchIndication_Off">回転/倍率のパラメータテキストを表示しない</string>
     <string name="MainOption_ScaleMinLimit_Name" >最小倍率制限</string>
+    <string name="MainOption_ScaleMinLimit10" >0.10倍</string>
+    <string name="MainOption_ScaleMinLimit15" >0.15倍</string>
+    <string name="MainOption_ScaleMinLimit25" >0.25倍</string>
     <string name="MainOption_ScaleMinLimit50" >0.50倍</string>
     <string name="MainOption_ScaleMinLimit75" >0.75倍</string>
     <string name="MainOption_ScaleMinLimit100" >1.00倍</string>
@@ -310,7 +338,7 @@
     <string name="PasteMode_Paint">ペイントモードヘ移動</string>
     
     <string name="NoticeDialogPurchase_ResetData">課金情報をリセットしました</string>
-    <string name="NoticeDialogPurchase_NeedBootCountDown" formatted="false">課金情報の更新が必要です: リセット猶予 %d/%d </string>
+    <string name="NoticeDialogPurchase_NeedBootCountDown" formatted="false" >課金情報の更新が必要です: リセット猶予 %d/%d </string>
     <string name="NoticeDialogPurchase_NeedUpdate">ネットに接続し課金情報を更新してください</string>
     <string name="NoticeDialogPurchase_UpdatedState">課金情報の定期チェック完了</string>
     <string name="NoticeDialogPurchase_RecognizedPurchaseEfT">EfT課金を確認しました</string>
@@ -353,6 +381,11 @@
     <string name="MoveCutAndPaste_Undo">-</string>
     <string name="MoveCopyAndPaste_Undo">-</string>
 
+    <string name="NewPlaneBase_TagName">no name</string>
+    <string name="NewPlaneImage_TagName">新規イメージ</string>
+    <string name="NewPlaneGray_TagName">新規単色イメージ</string>
+    <string name="NewPlaneFolder_TagName">新規フォルダ</string>
+
     <string name="MBtnFile_File">ファイル</string>
     <string name="MBtnFile_Save">セーブ</string>
     <string name="MBtnFile_SaveClover">+セーブ</string>
@@ -384,6 +417,7 @@
     <string name="MBtnTool_Bucket">バケツ</string>
     <string name="MBtnTool_Image">イメージ</string>
     <string name="MBtnTool_Move">移動</string>
+    <string name="MBtnTool_AreaMove">範囲移動</string>
     <string name="MBtnTool_SelRect">矩形選択</string>
     <string name="MBtnTool_SelEllipse">楕円選択</string>
     <string name="MBtnTool_SelFree">自由選択</string>
@@ -458,8 +492,10 @@
     <string name="MBtnImage_FlipDialog">編集面の色を反転中です…</string>
     <string name="MBtnImage_LinearDialog">リニア化処理中です…</string>
     <string name="MBtnImage_MergeDownDialog">編集面を１つ下へ統合処理中です…</string>
+    <string name="MBtnImage_MergeDownOnlyDialog">画像統合処理中です…</string>
     <string name="MBtnImage_MergeAllDialog">表示中のレイヤーをすべて統合処理中です…</string>
     <string name="MBtnImage_CutAndPasteDialog">切り取り画像生成中です…</string>
+    <string name="MBtnImage_CutOnlyDialog">切り取り処理中です…</string>
     <string name="MBtnImage_CopyAndPasteDialog">コピー画像生成中です…</string>
     <string name="MBtnImage_MergeDialog">編集面を画像面へ統合処理中です…</string>
     <string name="MBtnImage_SwapPlane">画像面と編集面を入れ替えました</string>
@@ -657,17 +693,13 @@
     <string name="MBtnView_DockINaviView">ナビ</string>
     <string name="MBtnView_DockIHistory">履歴</string>
 
-    <string name="MBtnMove_Apply">適用</string>
-    <string name="MBtnMove_Mode">モード</string>
-    <string name="MBtnMove_Filter">フィルタ</string>
-    <string name="MBtnMove_Modify">操作</string>
-    <string name="MBtnMove_Return">戻る</string>
     <string name="MBtnMove_Tool">移動</string>
     <string name="MBtnMove_AddClover">+移動</string>
+    <string name="MBtnMove_Return">戻る</string>
     <string name="MBtnMove_SelTool">移動方法</string>
     <string name="MBtnMove_SelToolMove">移動</string>
     <string name="MBtnMove_SelToolTransform">変形</string>
-
+    
     <string name="MoveRebar_Apply">適用</string>
     <string name="MoveRebar_ApplyAndMerge">+統合</string>
     <string name="MoveRebar_Rot180">180°</string>
@@ -677,12 +709,17 @@
     <string name="MoveRebar_FlipV">垂直反転</string>
     <string name="MoveRebar_Init">初期値</string>
 
+    <string name="MBtnAreaMove_Apply">適用</string>
+    <string name="MBtnAreaMove_AddClover">+範囲移動</string>
+
     <string name="MBtnTransform_Tool">変形</string>
     <string name="MBtnTransform_AddClover">+変形</string>
     <string name="MBtnTransform_Return">戻る</string>
     <string name="MBtnTransform_SelTool">移動方法</string>
     <string name="MBtnTransform_SelToolMove">移動</string>
     <string name="MBtnTransform_SelToolTransform">変形</string>
+
+    <string name="MBtnLayerTree_Return">戻る</string>
 
     <string name="TransformRebar_Apply">適用</string>
     <string name="TransformRebar_ApplyAndMerge">+統合</string>
@@ -898,6 +935,7 @@
     
     <string name="ToolDock_LayerList_BarOpacity">不透明度</string>
     <string name="ToolDock_LayerInfo_BtnVisible">レイヤー表示</string>
+    <string name="ToolDock_LayerInfo_BtnFolderType">フォルダ種類</string>
     <string name="ToolDock_LayerInfo_BtnPlaneLock">レイヤー保護</string>
     <string name="ToolDock_LayerInfo_BtnAlphaLock">不透明度保護</string>
     <string name="ToolDock_LayerInfo_BtnColorBlend">合成：カラー</string>
@@ -992,6 +1030,14 @@
     <string name="ToolDock_ClvBoxLocal_UseSmallIconTrue">小さなアイコンを利用</string>
     <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">普通サイズのアイコンを利用</string>
     <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">このウインドウのCloverアイコンは画像データ内部に保存されます</string>
+    
+    <string name="LayerTreeActionMenu_ModeSwitch">Tree編集へ</string>
+    <string name="LayerTreeActionMenu_Run">実行</string>
+    <string name="LayerTreeActionMenu_Apply">適用</string>
+    <string name="LayerTreeActionMenu_Return">戻る</string>
+    
+    <string name="LayerTreeSecondPane_ModeSwitch">操作メニューへ</string>
+    <string name="LayerTreeSecondPane_Return">戻る</string>
     
     <string name="PSEditBrush_BtnPick"		>つまむ</string>
     <string name="PSEditBrush_BtnMove"		>移動</string>
@@ -1103,6 +1149,7 @@
     <string name="Core_ConfirmTakeOverMemoDialog">メモ版のデータを引き継ぎますか？</string>
     <string name="Core_ConfirmInitEndRebootDialog">再起動してください</string>
     <string name="Core_ConfirmApplyKeyConfDialog">キー設定を適用しますか？</string>
+    <string name="GmMain_ProcessingDrawDelayStrokes">遅延ストロークの描画中…</string>
     <string name="StyleOption_ConfirmResetCal">リセットしますか？</string>
 
     <string name="EventGallery_DeleteFileDialog">ファイルを削除してよろしいですか</string>
@@ -1173,6 +1220,7 @@
     <string name="Tool_SelFree_CloverLabel"			>自由選択</string>
     <string name="Tool_SelAuto_CloverLabel"			>自動選択</string>
     <string name="Tool_Move_CloverLabel"			>移動</string>
+    <string name="Tool_AreaMove_CloverLabel"		>範囲移動</string>
     <string name="Tool_Trans_CloverLabel"			>変形</string>
     <string name="Tool_PSEditSimple_CloverLabel"	>線の修正</string>
     <string name="Tool_PSEditDetail_CloverLabel"	>線(詳細)</string>
@@ -1274,6 +1322,7 @@
     <string name="BucketSetting_ThrsPlane">境界判定元レイヤー</string>
     <string name="BucketSetting_ThrsEdit">編集レイヤーの色で判定</string>
     <string name="BucketSetting_ThrsVisible">表示されている色で判定</string>
+    <string name="BucketSetting_ForceThrsEdit">マスク編集時も編集レイヤーの色で判定</string>
     <string name="BucketSetting_FuzzyRange">曖昧範囲</string>
     <string name="BucketSetting_FuzzyMode">曖昧判定モード</string>
     <string name="BucketSetting_FuzzyModeNear">指定値付近</string>
@@ -1491,6 +1540,9 @@
     <string name="LayerSetting_Visible">表示・非表示</string>
     <string name="LayerSetting_VisibleTrue">レイヤーを表示する</string>
     <string name="LayerSetting_VisibleFalse">レイヤーを表示しない</string>
+    <string name="LayerSetting_FolderType">フォルダの扱い</string>
+    <string name="LayerSetting_FolderTypeGroup">グループ化のみ</string>
+    <string name="LayerSetting_FolderTypeImage">統合し画像として扱う</string>
     <string name="LayerSetting_Opacity">不透明度</string>
     <string name="LayerSetting_BlendTypeColor">合成：カラー</string>
     <string name="LayerSetting_BlendTypeAlpha">合成：不透明度</string>
@@ -1502,8 +1554,9 @@
     <string name="LayerSetting_AlphaLockFalse">レイヤーのアルファを保護しない</string>
     <string name="LayerSetting_MaskType">クリッピンググループ種類</string>
     <string name="LayerSetting_MaskTypeNone">クリップしない</string>
-    <string name="LayerSetting_MaskTypeDown">下のレイヤー不透明度でクリップ</string>
     <string name="LayerSetting_MaskTypeMerge">下のレイヤーまでの統合不透明度でクリップ</string>
+    <string name="LayerSetting_MaskTypeDown">下のレイヤー不透明度でクリップ</string>
+    <string name="LayerSetting_MaskTypeDownAndClip">下のレイヤー不透明度でマスクしてクリップ</string>
     <string name="CanvasSetting_PlaneMode">レイヤー構成</string>
     <string name="CanvasSetting_PlaneModeTransparent">透明レイヤーのみ</string>
     <string name="CanvasSetting_PlaneModeSingleColor">単色レイヤーのみ</string>
@@ -1528,6 +1581,7 @@
     <string name="CanvasSetting_SaveBtn">ディフォルトに設定</string>
 
     <string name="LayerList_OpenBtn">レイヤー</string>
+    <string name="LayerList_QMaskBtn">Q.マスク</string>
     <string name="LayerParam_VisibleBtn">表示</string>
     <string name="LayerParam_SettingBtn">設定</string>
     <string name="LayerParam_OpacityDesc">レイヤー不透明度</string>
@@ -1667,6 +1721,7 @@
     <string name="CmOpType_spuitFromMerge"	>取得元：見えている色(BG面除く)</string>
     <string name="CmOpType_spuitFromCur"	>取得元：選択されているレイヤー</string>
     <string name="CmOpType_viewLayerList"	>レイヤーリスト開閉</string>
+    <string name="CmOpType_toggleQuickMask"	>クイックマスクモード切り替え</string>
     <string name="CmOpType_chgView3Mode"	>表示モード切り替え(3モード)</string>
     <string name="CmOpType_chgView2Mode"	>表示モード切り替え(2モード)</string>
     <string name="CmOpType_cloverAddNew"	>選択中ツールのClover作成</string>
@@ -1719,6 +1774,7 @@
     <string name="CmOpType_selSelEmpty"		>選択範囲 - 解除</string>
     <string name="CmOpType_selSelFlip"		>選択範囲 - 反転</string>
     <string name="CmOpType_selMoveTool"		>移動ツールを選択</string>
+    <string name="CmOpType_selAreaMoveTool"	>範囲移動ツールを選択</string>
     <string name="CmOpType_selTransTool"	>変形ツールを選択</string>
     <string name="CmOpType_selCutAndPaste"	>切り取り→貼り付けを実行</string>
     <string name="CmOpType_selCopyAndPaste"	>コピー→貼り付けを実行</string>
