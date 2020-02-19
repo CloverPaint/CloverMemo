@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--
     <string name="B0000">
 \n
 □ Clover Paint公開中\n
@@ -9,7 +10,6 @@
 ペイントバージョンはこれからも機能拡張していきます。\n
 (メモ版はペイント版で加えられたUIに関する一般的な改善部分は今後も反映していく予定です)\n
     </string>
-<!--
     <string name="B1150">
 \n
 □ バージョン 1.15での変更\n
@@ -30,6 +30,7 @@
 - その他細かなバグ修正と調整\n
 \n
     </string>
+
 
     <string name="B1151">
 \n
@@ -102,7 +103,6 @@
 - 変形ツールの数値入力が起動しないバグを修正\n
 \n
     </string>
--->
     <string name="B1180">
 \n
 □ version 1.18での変更\n
@@ -776,6 +776,243 @@
 □ version 1.24.88\n
 \n
 - バグ修正\n
+\n
+    </string>
+
+    <string name="B12491">
+\n
+□ version 1.24.91\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12492">
+\n
+□ version 1.24.92\n
+\n
+- 一部環境で起動に失敗することがあるバグを修正\n
+\n
+    </string>
+
+    <string name="B12498">
+\n
+□ version 1.24.98\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12499">
+\n
+□ version 1.24.99\n
+\n
+- バグ修正\n
+\n
+    </string>
+-->
+
+    <string name="B12500">
+\n
+□ version 1.24.100\n
+\n
+- 細部の機能改善\n
+\n
+    </string>
+
+    <string name="B12501">
+\n
+□ version 1.24.101\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12503">
+\n
+□ version 1.24.103\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12504">
+\n
+□ version 1.24.104\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12505">
+\n
+□ version 1.24.105\n
+\n
+- 細部の機能改善\n
+\n
+    </string>
+
+    <string name="B12506">
+\n
+□ version 1.24.106\n
+\n
+- バグ修正\n
+\n
+    </string>
+
+    <string name="B12507">
+\n
+□ version 1.24.107\n
+\n
+- ブラシ設定のバグを修正\n
+\n
+    </string>
+
+    <string name="B12508">
+\n
+□ version 1.24.108\n
+\n
+- EfTモードで移動・変形・選択ツールが起動しなくなっていたバグを修正\n
+\n
+    </string>
+
+    <string name="B12520">
+\n
+□ version 1.24.120\n
+\n
+- ホバーカーソル等の表示サイズを解像度非依存を標準に\n
+- カーソルの表示サイズ指定機能を追加\n
+- ストローク遅延レンダの動作を一部改善\n
+- 混合系ブラシを回転させた時のバグ修正と機能改善\n
+- 2018年4月末までEfTを試用可能\n
+\n
+    </string>
+
+    <string name="B12521">
+\n
+□ version 1.24.121\n
+\n
+- スタイラスボタンでツールシフトが動作しないバグを修正\n
+\n
+    </string>
+
+    <string name="B12522">
+\n
+□ version 1.24.122\n
+\n
+- ストローク中のUI非表示から復帰しないことがあるバグを修正\n
+\n
+    </string>
+
+    <string name="B12530">
+\n
+□ version 1.24.130\n
+\n
+- ターゲット端末をレベル10(Android2.3)からレベル28(9.0)に変更\n
+- PSD画像などファイル読み込み時の動作を、KitKat以降の仕様に対応\n
+- ストローク予測機能を解放\n
+\n
+    </string>
+
+    <string name="B12531">
+\n
+□ version 1.24.131\n
+\n
+- マシュマロ以降の端末でスタイラスボタンが効かなくなっていたバグを修正\n
+\n
+    </string>
+
+    <string name="B12532">
+\n
+□ version 1.24.132\n
+\n
+- Cut&amp;Pasteで稀にハングアップするバグを修正\n
+- その他バグ修正\n
+\n
+    </string>
+
+    <string name="B12535">
+\n
+□ version 1.24.135\n
+\n
+- 選択ツールの機能を拡張\n
+- 起動時に表示座標がズレることがあるバグを修正\n
+- その他バグ修正\n
+\n
+    </string>
+
+    <string name="B12536">
+\n
+□ version 1.24.136\n
+\n
+- 一部端末で起動しないバグを修正\n
+\n
+    </string>
+
+    <string name="B12537">
+\n
+□ version 1.24.137\n
+\n
+- EfTモード時、起動に失敗することがあるバグを修正\n
+\n
+    </string>
+
+    <string name="B12538">
+\n
+□ version 1.24.138\n
+\n
+- ギャラリーに戻るとデッドロックするバグを修正\n
+- EfTモードで起きていた問題の対策コードを導入\n
+\n
+    </string>
+
+    <string name="B12539">
+\n
+□ version 1.24.139\n
+\n
+- ノッチ付き端末でタッチ座標がズレるバグを修正\n
+\n
+    </string>
+
+    <string name="B12540">
+\n
+□ version 1.24.140\n
+\n
+- 一部端末でEfTモード時に起動しないバグを修正\n
+\n
+    </string>
+
+    <string name="B12541">
+\n
+□ version 1.24.141\n
+\n
+- 一部環境でレイヤー選択時デッドロックするバグを修正\n
+\n
+    </string>
+
+    <string name="B12542">
+\n
+□ version 1.24.142\n
+\n
+- ごく一部の端末でEfTモード時に起動しないバグを修正\n
+\n
+    </string>
+
+    <string name="B12543">
+\n
+□ version 1.24.143\n
+\n
+- ごく一部の端末でEfTモード時に起動しないバグの対策\n
+\n
+    </string>
+
+    <string name="B12550">
+\n
+□ version 1.24.150\n
+\n
+- 移動・変形・範囲移動ツールのUIを改善\n
+- 範囲移動ツールで変形操作を可能に(Paint版)\n
+- その他バグ修正と改善
 \n
     </string>
 

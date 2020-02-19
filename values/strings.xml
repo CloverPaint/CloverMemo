@@ -19,6 +19,7 @@
     <string name="dialog_TryOut">Try out</string>
     <string name="dialog_Cancel">Cancel</string>
     <string name="NotShowNextTime">Not show next time</string>
+    <string name="cant_access_storage">Can\'t access storage</string>
     <string name="MainOption_TouchCorrect_Name">Touch correction</string>
     <string name="MainOption_TouchCorrect_On">Compensate for noise at the start of a touch stroke</string>
     <string name="MainOption_TouchCorrect_Off">Do not compensate for noise at the start of a touch stroke</string>
@@ -69,7 +70,7 @@
     <string name="MainOption_UseUIofEfT_On">Use the extension UI for tablets with digitizers (requires reboot)</string>
     <string name="MainOption_UseUIofEfT_Off">Use the default UI (requires reboot)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">Need to purchase a [Extension for Tablet] in order to use it</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until June 30, 2016.</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">You can use to trial version until April 30, 2018.</string>
     <string name="MainOption_BuyEfTKey">Buy it</string>
     <string name="MainOption_UseLimitedLicense">Try out</string>
     <string name="MainOption_ExtendBrush_Name">Extend pen setting</string>
@@ -285,6 +286,10 @@
     <string name="MainOption_HoverSysCsr_Dot">Dot</string>
     <string name="MainOption_HoverSysCsr_LargeCross">Cross (large)</string>
     <string name="MainOption_HoverSysCsr_LargeDot">Dot (large)</string>
+    <string name="MainOption_UseDIPCsr_Name">Cursor scaling</string>
+    <string name="MainOption_UseDIPCsr_On">Display cursor with independence from device resolution</string>
+    <string name="MainOption_UseDIPCsr_Off">Display cursor with dot by dot</string>
+    <string name="MainOption_CsrScaling_Name">Scaling percentage of a cursor</string>
     <string name="MainOption_Calibration_Name">Calibration</string>
     <string name="MainOption_Calibration_Desc">Error correction of the stylus pointer</string>
     <string name="MainOption_ResetCal_Name">Reset calibration</string>
@@ -321,6 +326,9 @@
     <string name="MainOption_MoveCenter_Name">Move center</string>
     <string name="MainOption_MoveCenter_On">Move circle center by hover cursor</string>
     <string name="MainOption_MoveCenter_Off">Circle center fixation the screen center</string>
+    <string name="MainOption_MoveCenterReset_Name">Reset the circle center at each tap</string>
+    <string name="MainOption_MoveCenterReset_On">The circle center set to position at after tap location</string>
+    <string name="MainOption_MoveCenterReset_Off">The circle center is not move from shortcut startup</string>
     <string name="MainOption_SplitPaintSystem_Name">Paint - System</string>
     <string name="MainOption_SplitPaintBrush_Name">Paint - Brush</string>
     <string name="MainOption_SplitPaintSpuit_Name">Paint - Eye dropper</string>
@@ -344,12 +352,19 @@
     <string name="NoticeDialogPurchase_RecognizedPurchaseEfT">Recognized the purchase of a EfT</string>
     <string name="NoticeDialogPurchase_RecognizedRefundEfT">Recognized the refund of a EfT</string>
 
+    <string name="MainConfirmDlg_ConfirmCheckLabel"    >Never confirm again</string>
     <string name="MainDispDlg_DispDlgDiscardImage_Name">Confirm discarding image data when going to the gallery</string>
     <string name="MainDispDlg_DispDlgDiscardImage_On"  >Display</string>
     <string name="MainDispDlg_DispDlgDiscardImage_Off" >Do not display</string>
-    <string name="MainDispDlg_DlgExportBrush_Name"     >Brush Export Warning Dialog</string>
-    <string name="MainDispDlg_DlgExportBrush_On"       >Display</string>
-    <string name="MainDispDlg_DlgExportBrush_Off"      >Do not display</string>
+    <string name="MainDispDlg_DispDlgExportBrush_Name" >Brush Export Warning Dialog</string>
+    <string name="MainDispDlg_DispDlgExportBrush_On"   >Display</string>
+    <string name="MainDispDlg_DispDlgExportBrush_Off"  >Do not display</string>
+    <string name="MainConfirmDlg_MoveDataMod_Name"     >Confirm discarding the modified data of the move tool</string>
+    <string name="MainConfirmDlg_MoveDataMod_On"       >Display</string>
+    <string name="MainConfirmDlg_MoveDataMod_Off"      >Do not display</string>
+    <string name="MainConfirmDlg_TransDataMod_Name"    >Confirm discarding the modified data of the transform tool</string>
+    <string name="MainConfirmDlg_TransDataMod_On"      >Display</string>
+    <string name="MainConfirmDlg_TransDataMod_Off"     >Do not display</string>
 
     <string name="DtPen_Undo">draw by the pen</string>
     <string name="DtMove_Undo">move the plane</string>
@@ -385,6 +400,7 @@
     <string name="NewPlaneImage_TagName">new image</string>
     <string name="NewPlaneGray_TagName">new grayscale</string>
     <string name="NewPlaneFolder_TagName">new folder</string>
+    <string name="NewPlaneMapping_TagName">new fill</string>
 
     <string name="MBtnFile_File">File</string>
     <string name="MBtnFile_Save">Save</string>
@@ -415,6 +431,7 @@
     <string name="MBtnTool_ShapeEllipse">Ellipse</string>
     <string name="MBtnTool_Ruler">Ruler</string>
     <string name="MBtnTool_Bucket">Bucket</string>
+    <string name="MBtnTool_PatternFill">Fill</string>
     <string name="MBtnTool_Image">Image</string>
     <string name="MBtnTool_Move">Move</string>
     <string name="MBtnTool_AreaMove">AreaMove</string>
@@ -429,6 +446,13 @@
     <string name="MBtnTool_AddSelEllipseClover">+Sel.ellipse</string>
     <string name="MBtnTool_AddSelFreeClover">+Sel.free</string>
     <string name="MBtnTool_AddSelAutoClover">+Sel.auto</string>
+
+    <string name="MBtnTool_AddPtnFillRectClover">+F.Rect</string>
+    <string name="MBtnTool_AddPtnFillEllipseClover">+F.Ellipse</string>
+    <string name="MBtnTool_AddPtnFillFreeClover">+F.Free</string>
+    <string name="MBtnTool_AddPtnFillAutoClover">+F.Auto</string>
+    <string name="MBtnTool_AddPtnFillModifyClover">+F.Modify</string>
+    <string name="MBtnTool_AddPtnFillMapEditClover">+MapEdit</string>
 
     <string name="MBtnPen_Pen">Pen</string>
     <string name="MBtnPen_Brush">Brush…</string>
@@ -450,6 +474,11 @@
     <string name="MBtnBucket_Color">Color…</string>
     <string name="MBtnBucket_NewClover"> Clover</string>
     <string name="MBtnBucket_CopyClover">+Clover</string>
+
+    <string name="MBtnFillImage_FillImage">Fill</string>
+    <string name="MBtnFillImage_Modify">Modify…</string>
+    <string name="MBtnFillImage_NewClover"> Clover</string>
+    <string name="MBtnFillImage_CopyClover">+Clover</string>
 
     <string name="MBtnEllipse_Ellipse">Ellipse</string>
     <string name="MBtnEllipse_Brush">Brush…</string>
@@ -494,8 +523,9 @@
     <string name="MBtnImage_MergeDownDialog">Processing merge down</string>
     <string name="MBtnImage_MergeDownOnlyDialog">Processing merge…</string>
     <string name="MBtnImage_MergeAllDialog">Processing merge all</string>
+    <string name="MBtnImage_MergeFolderDialog">Processing merge folder</string>
     <string name="MBtnImage_CutAndPasteDialog">Processing Cut&amp;Paste</string>
-    <string name="MBtnImage_CutOnlyDialog">Processing Cut</string>
+    <string name="MBtnImage_MoveCutOnlyDialog">Processing Cut</string>
     <string name="MBtnImage_CopyAndPasteDialog">Processing Copy&amp;Paste</string>
     <string name="MBtnImage_MergeDialog">Processing merge down</string>
     <string name="MBtnImage_SwapPlane">Swapped the edit-layer with the image-layer</string>
@@ -680,6 +710,7 @@
     <string name="MBtnView_ScaleClv">+Cam.Zoom</string>
     <string name="MBtnView_AllClv">+Cam.All</string>
     <string name="MBtnView_Navi">+Navi.View</string>
+    <string name="MBtnView_ColSelArea">Sel.Col…</string>
     <string name="MBtnView_Dock">Window</string>
     <string name="MBtnView_DockTool">Tool</string>
     <string name="MBtnView_DockInfo">Info</string>
@@ -688,7 +719,8 @@
     <string name="MBtnView_DockTBrush">Brush</string>
     <string name="MBtnView_DockTPalMain">Palette</string>
     <string name="MBtnView_DockTLayerList">Layer</string>
-    <string name="MBtnView_DockTHand">Move</string>
+    <string name="MBtnView_DockTHand">Cam.Move</string>
+    <string name="MBtnView_DockTMoveArrow">Mov.arrow</string>
     <string name="MBtnView_DockIInfoView">Desc</string>
     <string name="MBtnView_DockINaviView">Navi</string>
     <string name="MBtnView_DockIHistory">History</string>
@@ -707,10 +739,19 @@
     <string name="MoveRebar_Rot270">r270</string>
     <string name="MoveRebar_FlipH">Flip.H</string>
     <string name="MoveRebar_FlipV">Flip.V</string>
+    <string name="MoveRebar_Snap">Snap</string>
+    <string name="MoveRebar_SnapStepBound">Bound</string>
+    <string name="MoveRebar_SnapStep8">Step8</string>
+    <string name="MoveRebar_SnapStep10">Step10</string>
+    <string name="MoveRebar_NumInp">Num.inp</string>
+    <string name="MoveRebar_NumInpPivot">Pivot</string>
     <string name="MoveRebar_Init">Reset</string>
 
-    <string name="MBtnAreaMove_Apply">Apply</string>
+    <string name="MBtnAreaMove_Tool">AreaMove</string>
     <string name="MBtnAreaMove_AddClover">+AreaMove</string>
+    <string name="MBtnAreaMove_SelTool">Sel.tool</string>
+    <string name="MBtnAreaMove_SelToolMove">Move</string>
+    <string name="MBtnAreaMove_SelToolTransform">Transform</string>
 
     <string name="MBtnTransform_Tool">Transform</string>
     <string name="MBtnTransform_AddClover">+Transform</string>
@@ -721,25 +762,50 @@
 
     <string name="MBtnLayerTree_Return">Return</string>
 
+    <string name="MBtnPtnFill_SelTool">Sel.Tool</string>
+    <string name="MBtnPtnFill_OptSetting">Setting</string>
+    <string name="MBtnPtnFill_FillRect">Rect</string>
+    <string name="MBtnPtnFill_FillEllipse">Ellipse</string>
+    <string name="MBtnPtnFill_FillFree">Free</string>
+    <string name="MBtnPtnFill_FillAuto">Auto</string>
+    <string name="MBtnPtnFill_FillModify">Modifying</string>
+    <string name="MBtnPtnFill_MapEdit">MapEditing</string>
+    <string name="MBtnPtnFill_Edit">Edit▽</string>
+    <string name="MBtnPtnFill_EditAll">All</string>
+    <string name="MBtnPtnFill_EditFlip">Flip</string>
+    <string name="MBtnPtnFill_EditClear">Clear</string>
+    <string name="MBtnPtnFill_EditAllClv">+Fill.All</string>
+    <string name="MBtnPtnFill_EditFlipClv">+Fill.Flip</string>
+    <string name="MBtnPtnFill_EditClearClv">+Fill.Clear</string>
+    <string name="MBtnPtnFill_Return">Return</string>
+
     <string name="TransformRebar_Apply">Apply</string>
     <string name="TransformRebar_ApplyAndMerge">+Merge</string>
+    <string name="TransformRebar_SelTrans">Sel.trans</string>
     <string name="TransformRebar_TransFree">Free</string>
     <string name="TransformRebar_TransPole">Pole</string>
     <string name="TransformRebar_Rotate">Rotate</string>
     <string name="TransformRebar_Free">Free</string>
     <string name="TransformRebar_Skew">Skew</string>
-    <string name="TransformRebar_Trape">Pers.</string>
-    <string name="TransformRebar_SelTrans">Sel.trans</string>
-    <string name="TransformRebar_NumInp">Num.inp</string>
+    <string name="TransformRebar_Pers">Pers.</string>
     <string name="TransformRebar_Filter">Filter</string>
-    <string name="TransformRebar_FlipH">Flip.H</string>
-    <string name="TransformRebar_Init">Init.</string>
     <string name="TransformRebar_Nearest">Nearest</string>
     <string name="TransformRebar_Bilinear">Bilinear</string>
     <string name="TransformRebar_Bicubic">Bicubic</string>
     <string name="TransformRebar_Lanczos2">Lncz.2</string>
     <string name="TransformRebar_Lanczos3">Lncz.3</string>
     <string name="TransformRebar_MipFilter">sw.mip</string>
+    <string name="TransformRebar_NumInp">Num.inp</string>
+    <string name="TransformRebar_NumInpPivot">Pivot</string>
+    <string name="TransformRebar_Snap">Snap</string>
+    <string name="TransformRebar_SnapStepBound">Bound</string>
+    <string name="TransformRebar_SnapStep8">Step8</string>
+    <string name="TransformRebar_SnapStep10">Step10</string>
+    <string name="TransformRebar_Undo">Undo</string>
+    <string name="TransformRebar_Redo">Redo</string>
+    <string name="TransformRebar_UndoClear">Clear</string>
+    <string name="TransformRebar_Init">Init.</string>
+    <string name="TransformRebar_FlipH">Flip.H</string>
 
     <string name="RulerRebar_Shape">Shape</string>
     <string name="RulerRebar_HitBar">Range</string>
@@ -779,39 +845,117 @@
 	<string name="RulerRebar_View_M_Line"		>L</string>
 	<string name="RulerRebar_View_M_Bar"		>B</string>
 
-    <string name="Core_EventTrans_FmtFltPos" formatted="false">pos :%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltRot" formatted="false">rot :%s %7.2f</string>
-    <string name="Core_EventTrans_FmtFltScl" formatted="false">scl :%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltSkw" formatted="false">skew:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltTrp" formatted="false">pers:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFlip"   formatted="false">flip:[%s]%s</string>
-    <string name="Core_EventTrans_FltType"   formatted="false">Filter :[%s]</string>
-    <string name="Core_EventTrans_FltUseMip" formatted="false">Use mip-map:[%s]</string>
+	<string name="FillImageRebar_Shape"			>Shape</string>
+	<string name="FillImageRebar_FillType"		>Fill.type</string>
+	<string name="FillImageRebar_FillSetting"	>setting…</string>
+	<string name="FillImageRebar_AutoApply"		>Aply.auto</string>
+	<string name="FillImageRebar_Shape_Fill"	>Fill</string>
+	<string name="FillImageRebar_Shape_Rect"	>Rect</string>
+	<string name="FillImageRebar_Shape_Circle"	>Circle</string>
+	<string name="FillImageRebar_Shape_Free"	>Free</string>
+	<string name="FillImageRebar_FillType_Fill"		>Fill</string>
+	<string name="FillImageRebar_FillType_Gradation">Grad.</string>
+	<string name="FillImageRebar_FillType_Pattern"	>Pattern</string>
+	
+    <string name="Core_EventTrans_FmtPos"      formatted="false">Move   %7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtPivot"    formatted="false">Pivot  %7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtScl"      formatted="false">Scl    %7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtRot"      formatted="false">Rot    %s %7.2f</string>
+    <string name="Core_EventTrans_FmtFlip"     formatted="false">Flip   [%s]%s</string>
+    <string name="Core_EventTrans_FmtSubPos"   formatted="false">Pos    %7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtSubPivot" formatted="false">Pivot  %7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtSkew"     formatted="false">Skew   %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtPers"     formatted="false">Pers   %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFRectLT"  formatted="false">rect.lt%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFRectRB"  formatted="false">rect.rb%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos0"    formatted="false">pnt.lt %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos1"    formatted="false">pnt.rt %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos2"    formatted="false">pnt.lb %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos3"    formatted="false">pnt.rb %7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FltType"     formatted="false">Filter[%s]</string>
+    <string name="Core_EventTrans_FltUseMip"   formatted="false">Use mip-map[%s]</string>
     <string name="Core_EventTrans_ConvOutImageEventError" formatted="false">Failed with transforming the layer(%d)</string>
     <string name="Core_EventTrans_TransformProgress" formatted="false">Layer transforming…</string>
     <string name="Core_EventTrans_ClipFromBound">Too large, clipping by edit frame</string>
+    <string name="Core_EventTrans_ApplyBeforeExit">Apply current deform before exiting the transform tool</string>
     <string name="Core_EventTrans_NotValid">Is not selecting image valid for transform</string>
 
     <string name="MBtnSelect_SelTool">Sel.tool</string>
-    <string name="MBtnSelect_SelToolRect">Rect</string>
-    <string name="MBtnSelect_SelToolEllipse">Ellipse</string>
-    <string name="MBtnSelect_SelToolFree">Free</string>
-    <string name="MBtnSelect_SelToolAuto">Auto</string>
+    <string name="MBtnSelect_SelRect">Rect</string>
+    <string name="MBtnSelect_SelEllipse">Ellipse</string>
+    <string name="MBtnSelect_SelFree">Free</string>
+    <string name="MBtnSelect_SelAuto">Auto</string>
+    <string name="MBtnSelect_SelModify">Modifying</string>
     <string name="MBtnSelect_Blend">Blend</string>
     <string name="MBtnSelect_Return">Return</string>
     <string name="MBtnSelect_OptSetting">Setting</string>
-    <string name="MBtnSelect_SelEdit">Edit▽</string>
-    <string name="MBtnSelect_SelEditAll">All</string>
-    <string name="MBtnSelect_SelEditFlip">Flip</string>
-    <string name="MBtnSelect_SelEditClear">Clear</string>
-    <string name="MBtnSelect_SelEditAllClv">+Sel.All</string>
-    <string name="MBtnSelect_SelEditFlipClv">+Sel.Flip</string>
-    <string name="MBtnSelect_SelEditClearClv">+Sel.Clear</string>
+    <string name="MBtnSelect_Edit">Edit▽</string>
+    <string name="MBtnSelect_EditAll">All</string>
+    <string name="MBtnSelect_EditFlip">Flip</string>
+    <string name="MBtnSelect_EditClear">Clear</string>
+    <string name="MBtnSelect_EditAllClv">+Sel.All</string>
+    <string name="MBtnSelect_EditFlipClv">+Sel.Flip</string>
+    <string name="MBtnSelect_EditClearClv">+Sel.Clear</string>
     <string name="MBtnSelect_BldMov">Replace</string>
     <string name="MBtnSelect_BldMod">Modulate</string>
     <string name="MBtnSelect_BldMul">Mul</string>
     <string name="MBtnSelect_BldSub">Sub</string>
     <string name="MBtnSelect_BldAdd">Add</string>
+
+    <string name="SelectRebar_Next">Next</string>
+    <string name="SelectRebar_Modify">Modify</string>
+    <string name="SelectRebar_Apply">Apply</string>
+    <string name="SelectRebar_Blend"> </string>
+    <string name="SelectRebar_Blur">Blur</string>
+    <string name="SelectRebar_NumInp">Num.inp</string>
+    <string name="SelectRebar_Reset">Reset</string>
+
+    <string name="PtnFillRebar_Apply">Apply</string>
+    <string name="PtnFillRebar_Modify">Modify</string>
+    <string name="PtnFillRebar_New">+New</string>
+    <string name="PtnFillRebar_Return">Return</string>
+    <string name="PtnFillRebar_MapEdit">Map.Edit</string>
+    <string name="PtnFillRebar_FillType">FillType</string>
+    <string name="PtnFillRebar_FillTypeColor">Color</string>
+    <string name="PtnFillRebar_FillTypePattern">Pattern</string>
+    <string name="PtnFillRebar_FillTypeGradation">Gradation</string>
+    <string name="PtnFillRebar_FillSetting">Setting</string>
+    <string name="PtnFillRebar_FillSettingGradLinear">Linear</string>
+    <string name="PtnFillRebar_FillSettingGradRipple">Ripple</string>
+    <string name="PtnFillRebar_FillSettingGradRadial">Radial</string>
+    <string name="PtnFillRebar_Coordinate">Coord</string>
+    <string name="PtnFillRebar_CoordWorld">World</string>
+    <string name="PtnFillRebar_CoordLocal">Local</string>
+    <string name="PtnFillRebar_CoordLclRotOnly">Lcl.rot</string>
+    <string name="PtnFillRebar_CoordEditRect">Edit</string>
+    <string name="PtnFillRebar_Repeat">Repeat</string>
+    <string name="PtnFillRebar_RepeatXLoop">X.Loop</string>
+    <string name="PtnFillRebar_RepeatXRev">X.Rep</string>
+    <string name="PtnFillRebar_RepeatXRSt">X.RpSt</string>
+    <string name="PtnFillRebar_RepeatYLoop">Y.Loop</string>
+    <string name="PtnFillRebar_RepeatYRev">Y.Rep</string>
+    <string name="PtnFillRebar_RepeatYRSt">Y.RpSt</string>
+    <string name="PtnFillRebar_RepeatGLoop">Grd.Loop</string>
+    <string name="PtnFillRebar_RepeatGRev">G.Rep</string>
+    <string name="PtnFillRebar_RepeatGRSt">G.RpSt</string>
+    <string name="PtnFillRebar_NumInp">Num.inp</string>
+    <string name="PtnFillRebar_Reset">Reset</string>
+
+    <string name="MapRepeatSetting_MapFill">Pattern repeat</string>
+    <string name="MapRepeatSetting_MapFillTrue">Repeat the fill pattern out of range</string>
+    <string name="MapRepeatSetting_MapFillFalse">Fill pattern only within range</string>
+    <string name="MapRepeatSetting_AxisX">X-Axis</string>
+    <string name="MapRepeatSetting_AxisY">Y-Axis</string>
+    <string name="MapRepeatSetting_Reverse">Mapping reverse</string>
+    <string name="MapRepeatSetting_ReverseTrue">Reverse mapping when looping</string>
+    <string name="MapRepeatSetting_ReverseFalse">Do not reverse mapping</string>
+    <string name="MapRepeatSetting_StartReverse">Mapping start</string>
+    <string name="MapRepeatSetting_StartReverseTrue">Start in reverse</string>
+    <string name="MapRepeatSetting_StartReverseFalse">Start in not reverse</string>
+    <string name="MapRepeatSetting_DivCount">Number of internal divisions</string>
+
+    <string name="BuildFreeSelect_FillDialog">Processing the rasterize</string>
+    <string name="BuildBlurFilter_WaitDialog">Applying the blur filter</string>
 
     <string name="MBtnPSEdit_Return">Return</string>
     <string name="MBtnPSEdit_SelMode">Sel.mode</string>
@@ -951,29 +1095,48 @@
     <string name="ToolDock_PalGrad_GammaG">Gamma-G</string>
     <string name="ToolDock_PalGrad_GammaB">Gamma-B</string>
 
-    <string name="ToolDock_InfoView_TitleDrawProf">Draw Profile</string>
-    <string name="ToolDock_InfoView_TitleCamera">Camera</string>
-    <string name="ToolDock_InfoView_TitleDispCol">Disp Layer</string>
-    <string name="ToolDock_InfoView_TitleEditCol">Edit Layer</string>
-    <string name="ToolDock_InfoView_TitleCanvas">Canvas</string>
-    <string name="ToolDock_InfoView_TitleSelRange">Select Range</string>
-    <string name="ToolDock_InfoView_TitleTrans">Transform</string>
-    <string name="ToolDock_InfoView_TitleMove">Move</string>
-    <string name="ToolDock_InfoView_TitlePSEdit">Stroke Move</string>
-    <string name="ToolDock_InfoView_InvTransPos" >"Pos   ----.--  ----.--"</string>
-    <string name="ToolDock_InfoView_InvTransRot" >"Rot    ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransScl" >"Scl    ---.--   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransSkew">"Skew   ---.--   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransPers">"Pers   ---.--   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransFlip">Flip -----</string>
-    <string name="ToolDock_InfoView_InvMovePos"  >"Pos  -----  -----"</string>
-    <string name="ToolDock_InfoView_TransPos"  formatted="false">"Pos  %7.2f %7.2f"</string>
-    <string name="ToolDock_InfoView_TransRot"  formatted="false">"Rot   %6.2f"</string>
-    <string name="ToolDock_InfoView_TransScl"  formatted="false">"Scl   %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransSkew" formatted="false">"Skew  %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransPers" formatted="false">"Pers  %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransFlip" formatted="false">"Flip [ %c ]"</string>
-    <string name="ToolDock_InfoView_MovePos"   formatted="false">"Pos %6d %6d"</string>
+    <string name="ToolDock_InfoView_TitleDrawProf" >Draw Profile</string>
+    <string name="ToolDock_InfoView_TitleCamera"   >Camera</string>
+    <string name="ToolDock_InfoView_TitleDispCol"  >Disp Layer</string>
+    <string name="ToolDock_InfoView_TitleEditCol"  >Edit Layer</string>
+    <string name="ToolDock_InfoView_TitleCanvas"   >Canvas</string>
+    <string name="ToolDock_InfoView_TitleSelRange" >Select Range</string>
+    <string name="ToolDock_InfoView_TitleTrans"    >Transform</string>
+    <string name="ToolDock_InfoView_TitleTransSkew">Skew</string>
+    <string name="ToolDock_InfoView_TitleTransPers">Pers</string>
+    <string name="ToolDock_InfoView_TitleTransFree">Free</string>
+    <string name="ToolDock_InfoView_TitleMove"     >Move</string>
+    <string name="ToolDock_InfoView_TitlePSEdit"   >Stroke Move</string>
+    <string name="ToolDock_InfoView_InvTransPos"     >"Pos   ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransPivot"   >"Pivot ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransRot"     >"Rot    ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransScl"     >"Scl    ---.--   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransSubPos"  >"Pos   ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransSubPivot">"Pivot ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransSkew"    >"Skew   ---.--  :---.--"</string>
+    <string name="ToolDock_InfoView_InvTransPers"    >"Pers   ---.--  :---.--"</string>
+    <string name="ToolDock_InfoView_InvTransFlip"    >"Flip -----"</string>
+    <string name="ToolDock_InfoView_InvMovePos"      >"Pos  ------  ------"</string>
+    <string name="ToolDock_InfoView_InvMovePivot"    >"Pivot------  ------"</string>
+    <string name="ToolDock_InfoView_InvMoveShift"    >"Shift------  ------"</string>
+    <string name="ToolDock_InfoView_TransPos"      formatted="false">"Pos  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransPivot"    formatted="false">"Pivot%7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransScl"      formatted="false">"Scl   %6.2f  %6.2f"</string>
+    <string name="ToolDock_InfoView_TransRot"      formatted="false">"Rot   %6.2f"</string>
+    <string name="ToolDock_InfoView_TransFlip"     formatted="false">"Flip [ %c ]"</string>
+    <string name="ToolDock_InfoView_TransSubPos"   formatted="false">"Pos  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransSubPivot" formatted="false">"Pivot%7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransSkew"     formatted="false">"Skew  %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransPers"     formatted="false">"Pers  %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFRectLT"  formatted="false">"rect.lt %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFRectRB"  formatted="false">"rect.rb %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos0"    formatted="false">"pnt.lt %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos1"    formatted="false">"pnt.rt %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos2"    formatted="false">"pnt.lb %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos3"    formatted="false">"pnt.rb %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_MovePos"       formatted="false">"Pos  %6d %6d"</string>
+    <string name="ToolDock_InfoView_MovePivot"     formatted="false">"Pivot%6d %6d"</string>
+    <string name="ToolDock_InfoView_MoveShift"     formatted="false">"Shift%6d %6d"</string>
     <string name="ToolDock_InfoView_InvPSEditPos" >"Pos   ----.--  ----.--"</string>
     <string name="ToolDock_InfoView_InvPSEditRot" >"Rot    ---.--"</string>
     <string name="ToolDock_InfoView_InvPSEditScl" >"Scl    ---.--   ---.--"</string>
@@ -1031,13 +1194,33 @@
     <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">Using normal size icon</string>
     <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">The clover dropped in this window is saved to the image local</string>
     
-    <string name="LayerTreeActionMenu_ModeSwitch">go Tree</string>
+    <string name="LayerTreeMenuTabItem_SecondPane">Tree</string>
+    <string name="LayerTreeMenuTabItem_ActionMenu">Action</string>
+    <string name="LayerTreeMenuTabItem_OptionMenu">Option</string>
+    
+    <string name="LayerTreeAction_cmdAddLayer"		>Add layer</string>
+    <string name="LayerTreeAction_cmdCpyLayer"		>Copy layer</string>
+    <string name="LayerTreeAction_cmdDelLayer"		>Delete layer</string>
+    <string name="LayerTreeAction_cmdAddFolder"		>Add folder</string>
+    <string name="LayerTreeAction_cmdMergeFolder"	>Merge folder</string>
+    <string name="LayerTreeAction_cmdAddMergeFolder">Add merged folder</string>
+    <string name="LayerTreeAction_cmdExtractFolder"	>Extract folder</string>
+    <string name="LayerTreeAction_cmdMergeDown"		>Merge down</string>
+    <string name="LayerTreeAction_cmdMergeAll"		>Merge all</string>
+    <string name="LayerTreeAction_cmdAddMergeAll"	>Add merged all</string>
+    <string name="LayerTreeAction_cmdAddWhiteMask"	>Add mask(all visible)</string>
+    <string name="LayerTreeAction_cmdAddBlackMask"	>Add mask(not visible)</string>
+    <string name="LayerTreeAction_cmdAddSelectMask"	>Add mask(from select)</string>
+    <string name="LayerTreeAction_cmdAddNotSelMask"	>Add mask(from reverse select)</string>
+    <string name="LayerTreeAction_cmdDelMask"		>Delete mask</string>
+    <string name="LayerTreeAction_cmdApplyMask"		>Apply mask to image</string>
+    <string name="LayerTreeAction_cmdCpyMaskToSel"	>Copy mask to select</string>
+    <string name="LayerTreeAction_cmdModMaskToSel"	>Modulate mask to select</string>
+    <string name="LayerTreeAction_cmdMulMaskToSel"	>Multiply mask and select</string>
+    <string name="LayerTreeAction_cmdSubMaskToSel"	>Subtract mask from select</string>
+    <string name="LayerTreeAction_cmdAddMaskToSel"	>Add mask to select</string>
     <string name="LayerTreeActionMenu_Run">Run</string>
     <string name="LayerTreeActionMenu_Apply">Apply</string>
-    <string name="LayerTreeActionMenu_Return">Return</string>
-    
-    <string name="LayerTreeSecondPane_ModeSwitch">go Action</string>
-    <string name="LayerTreeSecondPane_Return">Return</string>
     
     <string name="PSEditBrush_BtnPick">Pick</string>
     <string name="PSEditBrush_BtnMove">Move</string>
@@ -1092,6 +1275,8 @@
     <string name="CloverRect_LeafPickUp">Pick up</string>
     <string name="CloverRect_LeafDraw">Draw</string>
 
+    <string name="CloverFillImage_Label">Fill</string>
+
     <string name="CloverProp_ProtectMove">Lock Clover Icon</string>
     <string name="CloverProp_ProtectMoveTrue">Clover icon can\'t be moved</string>
     <string name="CloverProp_ProtectMoveFalse">Clover icon can be moved</string>
@@ -1122,6 +1307,18 @@
     <string name="CloverProp_PenExtend">Save and Set Pen Extend Parameters</string>
     <string name="CloverProp_PenExtendTrue">This clover will remember its pen extend parameters</string>
     <string name="CloverProp_PenExtendFalse">This clover won\'t remember its pen extend parameters</string>
+    <string name="CloverProp_SelTransMode">Select startup mode of the transform tool</string>
+    <string name="CloverProp_SelTransModeNone">Restores latest mode</string>
+    <string name="CloverProp_SelTransModePole">Start with the Pole mode</string>
+    <string name="CloverProp_SelTransModeFree">Start with the Free mode</string>
+    <string name="CloverProp_AreaMoveSelTool">Select startup mode of the area move tool</string>
+    <string name="CloverProp_AreaMoveSelToolNone">Restores latest mode</string>
+    <string name="CloverProp_AreaMoveSelToolMove">Start with the Move mode</string>
+    <string name="CloverProp_AreaMoveSelToolTrans">Start with the Transform mode</string>
+    <string name="CloverProp_AreaMoveSelTransMode">Select startup mode of the transform tool</string>
+    <string name="CloverProp_AreaMoveSelTransModeNone">Restores latest mode</string>
+    <string name="CloverProp_AreaMoveSelTransModePole">Start with the Pole mode</string>
+    <string name="CloverProp_AreaMoveSelTransModeFree">Start with the Free mode</string>
 
     <string name="Core_CloverPaintAppExitDialog">Confirm exit of CloverPaint</string>
     <string name="Core_CloverMemoLiteAppExitDialog">Confirm exit of CloverMemo Lite</string>
@@ -1172,7 +1369,8 @@
     <string name="Core_EventOutput_OverwriteDialog">Overwrite confirmation of the file</string>
     <string name="Core_EventOutput_RoundDialog">Move conversion flt numbers to int</string>
 
-    <string name="Core_EventMove_FmtIntPos" formatted="false">pos:%4d,%4d</string>
+    <string name="Core_EventMove_FmtIntPos" formatted="false">pivot:%4d,%4d pos:%4d,%4d</string>
+    <string name="Core_EventMove_ApplyBeforeExit">Apply current deform before exiting the move tool</string>
     <string name="Core_EventMove_NotValid">Is not selecting image valid for move</string>
 
     <string name="DispScreenTouchEffect_ScaleF7_2">Scl%7.2f%%</string>
@@ -1240,6 +1438,7 @@
     <string name="FevMsgDlgBox_MergeDown">↓Merge</string>
     <string name="FevMsgDlgBox_eOk">OK</string>
     <string name="FevMsgDlgBox_eYes">Yes</string>
+    <string name="FevMsgDlgBox_eApply">Apply</string>
     <string name="FevMsgDlgBox_eNo">No</string>
     <string name="FevMsgDlgBox_eCopy">Copy</string>
     <string name="FevMsgDlgBox_eCut">Cut</string>
@@ -1500,11 +1699,11 @@
     <string name="BrushSetting_CallSubMoveLenTo">Move effect</string>
     <string name="BrushSetting_CallSubMoveLenToDesc">Set the effects of stroke travel distance</string>
     <string name="BrushSetting_HoverCursorPressure">Pressure of the hovering cursor</string>
-    <string name="BrushSetting_UseOneShotUndo">Using one-shot undo</string>
-    <string name="BrushSetting_UseOneShotUndoTrue">Decrease stroke dalay by one-shot undo</string>
-    <string name="BrushSetting_UseOneShotUndoFalse">Using normal stroke same as before</string>
+    <string name="BrushSetting_UseOneShotUndo">Prediction stroke</string>
+    <string name="BrushSetting_UseOneShotUndoTrue">Use prediction stroke to reduce drawing delay</string>
+    <string name="BrushSetting_UseOneShotUndoFalse">Do not use prediction stroke</string>
     <string name="BrushSetting_OneShotLimitSize">　- Set limit pen size</string>
-    <string name="BrushSetting_PredFactor">　- Add stroke prediction factor frames</string>
+    <string name="BrushSetting_PredFactor">　- Add prediction factor frames</string>
     <string name="BrushSetting_JitterPerSpotSize">Size jitter(per spot)</string>
     <string name="BrushSetting_JitterPerSpotFlow">Flow jitter(per spot)</string>
     <string name="BrushSetting_JitterPerSpotColLerp">Color FG->BG jitter(per spot)</string>
@@ -1537,6 +1736,7 @@
     <string name="JpegSetting_MaintainBaseline">Maintain the baseline</string>
     <string name="JpegSetting_NotMaintainBaseline">Not maintain the baseline</string>
 
+    <string name="LayerSetting_LayerName">Name</string>
     <string name="LayerSetting_Visible">Visible</string>
     <string name="LayerSetting_VisibleTrue">Visible a layer</string>
     <string name="LayerSetting_VisibleFalse">Not visible a layer</string>
@@ -1557,6 +1757,10 @@
     <string name="LayerSetting_MaskTypeMerge">Masked by the opacity of merged lower layers</string>
     <string name="LayerSetting_MaskTypeDown">Masked by the opacity of a lower layer</string>
     <string name="LayerSetting_MaskTypeDownAndClip">Masked by a lower layer and merged its</string>
+    <string name="LayerSetting_MaskLink">Linked mask to image</string>
+    <string name="LayerSetting_MaskLinkTrue">The operation of the image is run at mask at the same time</string>
+    <string name="LayerSetting_MaskLinkFalse">The operation of the image and mask are separated</string>
+    
     <string name="CanvasSetting_PlaneMode">Layer Construction</string>
     <string name="CanvasSetting_PlaneModeTransparent">Only transpalent layer</string>
     <string name="CanvasSetting_PlaneModeSingleColor">Only single-color layer</string>
@@ -1576,9 +1780,65 @@
     <string name="CanvasSetting_BgPtn">Pattern</string>
     <string name="CanvasSetting_BgSize">Size</string>
     <string name="CanvasSetting_BgPtnMove">Move</string>
-
     <string name="CanvasSetting_NewBtn">Create new image</string>
     <string name="CanvasSetting_SaveBtn">Set to default</string>
+
+    <string name="SelectSetting_BlurRange">Blur range</string>
+    <string name="SelectSetting_BlurType">Blur type</string>
+    <string name="SelectSetting_AntiAlias">AntiAlias</string>
+    <string name="SelectSetting_AntiAliasOn">AntiAlias is valid</string>
+    <string name="SelectSetting_AntiAliasOff">AntiAlias is invalid</string>
+    <string name="SelectSetting_SmoothType">Type of a interpolation of the free select area</string>
+    <string name="SelectSetting_SmoothType_None">Do not interpolate</string>
+    <string name="SelectSetting_SmoothType_BSpline">Interpolation by B-Spline</string>
+    <string name="SelectSetting_SmoothType_CatmullRom">Interpolation by Catmull-Rom</string>
+    <string name="SelectSetting_BlurType_Blur">Use normal blur</string>
+    <string name="SelectSetting_BlurType_Expand">Use expand blur</string>
+    <string name="SelectSetting_BlurType_ExpandAA">Apply expand blur with AA</string>
+    <string name="SelectSetting_BlurType_Reduce">Apply reduce blur</string>
+    <string name="SelectSetting_BlurType_ReduceAA">Apply reduce blur with AA</string>
+
+    <string name="GradSetting_BtnPressedDialog">The data being edited will be lost. It is OK?</string>
+    <string name="GradSetting_KnotBtn_AddPrev">Add prev</string>
+    <string name="GradSetting_KnotBtn_AddNext">Add next</string>
+    <string name="GradSetting_KnotBtn_SelPrev">Sel prev</string>
+    <string name="GradSetting_KnotBtn_SelNext">Sel next</string>
+    <string name="GradSetting_KnotBtn_Delete">Delete</string>
+    <string name="GradSetting_KnotBtn_SetColor">Color</string>
+    <string name="GradSetting_TabColorCh">Color-ch</string>
+    <string name="GradSetting_TabMaskCh">Mask-ch</string>
+    <string name="GradSetting_IntrAllType">Color-ch specify type</string>
+    <string name="GradSetting_IntrAllTrue">Use same curve throughout color-ch</string>
+    <string name="GradSetting_IntrAllFalse">Use individual curve each color-ch</string>
+    <string name="GradSetting_MaskKeyOpacity">Mask key opacity</string>
+    <string name="GradSetting_ColXCaption">RGBA-ch</string>
+    <string name="GradSetting_ColRCaption">R-ch</string>
+    <string name="GradSetting_ColGCaption">G-ch</string>
+    <string name="GradSetting_ColBCaption">B-ch</string>
+    <string name="GradSetting_ColACaption">A-ch</string>
+    <string name="GradSetting_MaskCaption">Mask-ch</string>
+    <string name="GradSetting_KnotPos">  Knot pos</string>
+    <string name="GradSetting_IntrType">  Intrpolation type</string>
+    <string name="GradSetting_IntrTypeDirect">Direct</string>
+    <string name="GradSetting_IntrTypeLinear">Linear</string>
+    <string name="GradSetting_IntrTypeEasing1">Easing(one-side)</string>
+    <string name="GradSetting_IntrTypeEasing2">Easing(both-side)</string>
+    <string name="GradSetting_IntrPower">  Power</string>
+
+    <string name="PtnSetting_ItemRename">Rename</string>
+    <string name="PtnSetting_ItemDelete">Delete</string>
+    <string name="PtnSetting_ConfirmItemDelete">Remove pattern from the list</string>
+    <string name="PtnSetting_PtnLoadDlgHeader">Setting the pattern map image</string>
+    <string name="PtnSetting_ToolRename">Rename</string>
+    <string name="PtnSetting_ToolResize">Resize</string>
+    <string name="PtnSetting_ImageSizeTooLarge">The image size is too large</string>
+    <string name="PtnSetting_ShurnkTo256">Recommend reducing to 256 or less</string>
+
+    <string name="PtnResize_FixSizeRatio">AspectRatio</string>
+    <string name="PtnResize_FixSizeRatioTrue">Maintain aspect ratio of original image</string>
+    <string name="PtnResize_FixSizeRatioFalse">Ignore aspect ratio of original image</string>
+    <string name="PtnResize_ModSizeX">Image width after resizing</string>
+    <string name="PtnResize_ModSizeY">Image height after resizing</string>
 
     <string name="LayerList_OpenBtn">Layer</string>
     <string name="LayerList_QMaskBtn">Q.Mask</string>
@@ -1603,34 +1863,64 @@
     <string name="planeBoundWidth">Width(8-32768)</string>
     <string name="planeBoundHeight">Height(8-32768)</string>
 
-    <string name="transPosX">pos.x</string>
-    <string name="transPosY">pos.y</string>
+    <string name="transPos">pos</string>
     <string name="transRotate">rotate</string>
-    <string name="transScaleX">scl.x</string>
-    <string name="transScaleY">scl.y</string>
-    <string name="transSkewX">skew.x</string>
-    <string name="transSkewY">skew.y</string>
-    <string name="transTrapeX">pers.x</string>
-    <string name="transTrapeY">pers.y</string>
+    <string name="transScale">scale</string>
+    <string name="transPivot">pivot</string>
+
+    <string name="transPolePos">pos</string>
+    <string name="transPoleSkew">skew</string>
+    <string name="transPolePers">pers</string>
+    <string name="transPolePivot">pivot</string>
+    <string name="transPolePersBase">persBase</string>
+
+    <string name="transFreePos">pos</string>
+    <string name="transFreePos0">free.lt</string>
+    <string name="transFreePos1">free.rt</string>
+    <string name="transFreePos2">free.lb</string>
+    <string name="transFreePos3">free.rb</string>
+    <string name="transFreeBaseRectLT">brect.lt</string>
+    <string name="transFreeBaseRectRB">brect.rb</string>
+
+    <string name="selectRectL">rect.l</string>
+    <string name="selectRectT">rect.t</string>
+    <string name="selectRectR">rect.r</string>
+    <string name="selectRectB">rect.b</string>
+    <string name="selectRotate">rotate</string>
+    <string name="selMoveX">pos.x</string>
+    <string name="selMoveY">pos.y</string>
 
     <string name="rulerLineDlgTitle">Setting ruler params</string>
     <string name="rulerLineDlgApply">Apply</string>
     <string name="rulerLineDlgDiscard">Discard</string>
-    <string name="rulerLineOrigin">Origin</string>
-    <string name="rulerLineHandle">Handle</string>
-    <string name="rulerLineAngle">Angle</string>
-    <string name="rulerLineLength">Length</string>
+    <string name="rulerLineOrigin">origin</string>
+    <string name="rulerLineHandle">handle</string>
+    <string name="rulerLineAngle">angle</string>
+    <string name="rulerLineLength">length</string>
+
+    <string name="inputMoveInfosTitle">Move</string>
+    <string name="movePos">pos</string>
+    <string name="moveRotate">rotate</string>
+    <string name="moveRotate0">0 degree</string>
+    <string name="moveRotate90">90 degree</string>
+    <string name="moveRotate180">180 degree</string>
+    <string name="moveRotate270">270 degree</string>
+    <string name="moveFlipTitle"></string>
+    <string name="moveFlip">flip</string>
+
+    <string name="inputPivotInfosTitle">Pivot</string>
+    <string name="movePivot">pivot</string>
 
     <string name="rulerEllipseDlgTitle">Setting ruler params</string>
     <string name="rulerEllipseDlgApply">Apply</string>
     <string name="rulerEllipseDlgDiscard">Discard</string>
-    <string name="rulerEllipseOrigin">Origin</string>
-    <string name="rulerEllipseScale">Scale</string>
-    <string name="rulerEllipseAngle">Angle</string>
-    <string name="rulerEllipseFree0">FreeLT</string>
-    <string name="rulerEllipseFree1">FreeRT</string>
-    <string name="rulerEllipseFree2">FreeLB</string>
-    <string name="rulerEllipseFree3">FreeRB</string>
+    <string name="rulerEllipseOrigin">origin</string>
+    <string name="rulerEllipseScale">scale</string>
+    <string name="rulerEllipseAngle">angle</string>
+    <string name="rulerEllipseFree0">free.lt</string>
+    <string name="rulerEllipseFree1">free.rt</string>
+    <string name="rulerEllipseFree2">free.lb</string>
+    <string name="rulerEllipseFree3">free.rb</string>
 
     <string name="NaviView_TransMode">Through touch event</string>
     <string name="NaviView_TransModeTrue">Enable UI control in the under of the window</string>
@@ -1836,7 +2126,7 @@
     <string name="TexBSCaption_StrokeBlend">Stroke Blend</string>
     <string name="TexBSCaption_FlowCalc">Flow Calc</string>
     <string name="TexBSCaption_SpotSpace">Spot Space</string>
-    <string name="TexBSCaption_OneShotUndo">One Shot Undo</string>
+    <string name="TexBSCaption_OneShotUndo">Prediction stroke</string>
 
     <!-- Spot向けパラメータ -->
     <string name="TexBS_Size">Size</string>
@@ -1900,11 +2190,11 @@
     <string name="TexBS_DotPtnSingleDotChain">One-dot chain line</string>
     <string name="TexBS_DotPtnDoubleDotChain">Two-dot chain line</string>
     <string name="TexBS_HoverCursorPressure">Pressure of the hovering cursor</string>
-    <string name="TexBS_UseOneShotUndo">Using one-shot undo</string>
-    <string name="TexBS_UseOneShotUndoTrue">Decrease stroke dalay by one-shot undo</string>
-    <string name="TexBS_UseOneShotUndoFalse">Using normal stroke same as before</string>
-    <string name="TexBS_OneShotLimitSize">Set limit pen size</string>
-    <string name="TexBS_PredFactor">Add stroke prediction factor frames</string>
+    <string name="TexBS_UseOneShotUndo">Prediction stroke</string>
+    <string name="TexBS_UseOneShotUndoTrue">Use prediction stroke to reduce drawing delay</string>
+    <string name="TexBS_UseOneShotUndoFalse">Do not use prediction stroke</string>
+    <string name="TexBS_OneShotLimitSize">　- Set limit pen size</string>
+    <string name="TexBS_PredFactor">　- Add prediction factor frames</string>
 
     <!--データカテゴリポインタ -->
     <string name="TexBSPtr_SpotActiveRoll">Spot Active Roll</string>
@@ -2199,10 +2489,10 @@
     <string name="TBS_RA_CS_LbYPD_ActiveOffset">Active offset↑</string>
     <string name="TBS_RA_CS_LbYPD_ActiveBias">Active bias↑</string>
 
-    <string name="TBS_RA_CS_SpBtn_AddPrev">Add to prev</string>
-    <string name="TBS_RA_CS_SpBtn_AddNext">Add to next</string>
-    <string name="TBS_RA_CS_SpBtn_SelPrev">Select prev</string>
-    <string name="TBS_RA_CS_SpBtn_SelNext">Select next</string>
+    <string name="TBS_RA_CS_SpBtn_AddPrev">Add prev</string>
+    <string name="TBS_RA_CS_SpBtn_AddNext">Add next</string>
+    <string name="TBS_RA_CS_SpBtn_SelPrev">Sel prev</string>
+    <string name="TBS_RA_CS_SpBtn_SelNext">Sel next</string>
     <string name="TBS_RA_CS_SpBtn_Delete">Delete</string>
 
     <!-- 濃度テクスチャ - システムテクスチャ名 -->
@@ -2227,6 +2517,15 @@
     <string name="TBS_tb0004">Cloudy sky</string>
     <string name="TBS_tb0005">Tree trunk</string>
     <string name="TBS_tb0006">Wall</string>
+
+    <!-- パターンマップ - システムテクスチャ名 -->
+    <string name="TBS_pmDefault">Defalut</string>
+    <string name="TBS_pm0001">Tone10%</string>
+    <string name="TBS_pm0002">Tone20%</string>
+    <string name="TBS_pm0003">Tone30%</string>
+    <string name="TBS_pm0004">Tone40%</string>
+    <string name="TBS_pm0005">Tone50%</string>
+    <string name="TBS_pm0006">Tone60%</string>
 
     <!-- 濃度テクスチャ - ユーザーテクスチャ追加ダイアログ -->
     <string name="TexBS_AddUserAlphaTexture">Add user texture</string>

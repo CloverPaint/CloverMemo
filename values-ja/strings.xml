@@ -19,6 +19,7 @@
     <string name="dialog_TryOut">試用する</string>
     <string name="dialog_Cancel">キャンセル</string>
     <string name="NotShowNextTime">次回から表示しない</string>
+    <string name="cant_access_storage">ストレージにアクセスできません</string>
     <string name="MainOption_TouchCorrect_Name">タッチ補正</string>
     <string name="MainOption_TouchCorrect_On">描画タッチ開始時のブレを補正</string>
     <string name="MainOption_TouchCorrect_Off">描画タッチ時のブレ補正は無効</string>
@@ -69,7 +70,7 @@
     <string name="MainOption_UseUIofEfT_On">デジタイザー付きタブレット用のUIを利用(*要再起動)</string>
     <string name="MainOption_UseUIofEfT_Off">通常のUIを利用(*要再起動)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">「タブレット用機能拡張」の購入が必要な機能です</string>
-    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2016年6月30日まで試用可能</string>
+    <string name="MainOption_NeedBuyEfTDlgDesc">※ 2018年4月30日まで試用可能</string>
     <string name="MainOption_BuyEfTKey">購入手続きへ</string>
     <string name="MainOption_UseLimitedLicense">試用する</string>
     <string name="MainOption_ExtendBrush_Name">ペンブラシ設定拡張</string>
@@ -285,6 +286,10 @@
     <string name="MainOption_HoverSysCsr_Dot">ドット</string>
     <string name="MainOption_HoverSysCsr_LargeCross">十字(大きい)</string>
     <string name="MainOption_HoverSysCsr_LargeDot">ドット(大きい)</string>
+    <string name="MainOption_UseDIPCsr_Name">カーソル表示サイズ</string>
+    <string name="MainOption_UseDIPCsr_On">カーソルを解像度に合わせてスケーリング</string>
+    <string name="MainOption_UseDIPCsr_Off">カーソル画像のピクセルをそのまま表示</string>
+    <string name="MainOption_CsrScaling_Name">カーソル表示倍率</string>
     <string name="MainOption_Calibration_Name">スタイラスの補正</string>
     <string name="MainOption_Calibration_Desc">スタイラスポインタのズレを補正します</string>
     <string name="MainOption_ResetCal_Name">スタイラスの補正リセット</string>
@@ -321,6 +326,9 @@
     <string name="MainOption_MoveCenter_Name">操作円の中心</string>
     <string name="MainOption_MoveCenter_On">操作円の中心をホバーカーソルに合わせる</string>
     <string name="MainOption_MoveCenter_Off">操作円の中心は画面中央</string>
+    <string name="MainOption_MoveCenterReset_Name">操作円の中心を毎回リセット</string>
+    <string name="MainOption_MoveCenterReset_On">タッチ後のカーソル座標を操作円の中心にする</string>
+    <string name="MainOption_MoveCenterReset_Off">ショートカット起動時から動かさない</string>
     <string name="MainOption_SplitPaintSystem_Name">ペイント - システム</string>
     <string name="MainOption_SplitPaintBrush_Name">ペイント - ブラシ</string>
     <string name="MainOption_SplitPaintSpuit_Name">ペイント - スポイト</string>
@@ -344,12 +352,19 @@
     <string name="NoticeDialogPurchase_RecognizedPurchaseEfT">EfT課金を確認しました</string>
     <string name="NoticeDialogPurchase_RecognizedRefundEfT">EfT課金の払い戻しを確認しました</string>
 
+    <string name="MainConfirmDlg_ConfirmCheckLabel"    >次回から表示しない</string>
     <string name="MainDispDlg_DispDlgDiscardImage_Name">ギャラリー移動時のイメージ破棄確認</string>
     <string name="MainDispDlg_DispDlgDiscardImage_On"  >表示する</string>
     <string name="MainDispDlg_DispDlgDiscardImage_Off" >表示しない</string>
-    <string name="MainDispDlg_DlgExportBrush_Name"     >ブラシ出力時の注意書き</string>
-    <string name="MainDispDlg_DlgExportBrush_On"       >表示する</string>
-    <string name="MainDispDlg_DlgExportBrush_Off"      >表示しない</string>
+    <string name="MainDispDlg_DispDlgExportBrush_Name" >ブラシ出力時の注意書き</string>
+    <string name="MainDispDlg_DispDlgExportBrush_On"   >表示する</string>
+    <string name="MainDispDlg_DispDlgExportBrush_Off"  >表示しない</string>
+    <string name="MainConfirmDlg_MoveDataMod_Name"     >移動ツールの編集中データ破棄確認</string>
+    <string name="MainConfirmDlg_MoveDataMod_On"       >表示する</string>
+    <string name="MainConfirmDlg_MoveDataMod_Off"      >表示しない</string>
+    <string name="MainConfirmDlg_TransDataMod_Name"    >変形ツールの編集中データ破棄確認</string>
+    <string name="MainConfirmDlg_TransDataMod_On"      >表示する</string>
+    <string name="MainConfirmDlg_TransDataMod_Off"     >表示しない</string>
 
     <string name="DtPen_Undo">ペン描画</string>
     <string name="DtMove_Undo">プレーンの移動</string>
@@ -385,6 +400,7 @@
     <string name="NewPlaneImage_TagName">新規イメージ</string>
     <string name="NewPlaneGray_TagName">新規単色イメージ</string>
     <string name="NewPlaneFolder_TagName">新規フォルダ</string>
+    <string name="NewPlaneMapping_TagName">新規塗り潰し</string>
 
     <string name="MBtnFile_File">ファイル</string>
     <string name="MBtnFile_Save">セーブ</string>
@@ -415,6 +431,7 @@
     <string name="MBtnTool_ShapeEllipse">楕円</string>
     <string name="MBtnTool_Ruler">定規</string>
     <string name="MBtnTool_Bucket">バケツ</string>
+    <string name="MBtnTool_PatternFill">塗り潰し</string>
     <string name="MBtnTool_Image">イメージ</string>
     <string name="MBtnTool_Move">移動</string>
     <string name="MBtnTool_AreaMove">範囲移動</string>
@@ -429,6 +446,13 @@
     <string name="MBtnTool_AddSelEllipseClover">+楕円選択</string>
     <string name="MBtnTool_AddSelFreeClover">+自由選択</string>
     <string name="MBtnTool_AddSelAutoClover">+自動選択</string>
+    
+    <string name="MBtnTool_AddPtnFillRectClover">+矩形塗り</string>
+    <string name="MBtnTool_AddPtnFillEllipseClover">+楕円塗り</string>
+    <string name="MBtnTool_AddPtnFillFreeClover">+自由塗り</string>
+    <string name="MBtnTool_AddPtnFillAutoClover">+自動塗り</string>
+    <string name="MBtnTool_AddPtnFillModifyClover">+塗り修正</string>
+    <string name="MBtnTool_AddPtnFillMapEditClover">+Map編集</string>
 
     <string name="MBtnPen_Pen">ペン</string>
     <string name="MBtnPen_Brush">ブラシ…</string>
@@ -450,6 +474,11 @@
     <string name="MBtnBucket_Color">色…</string>
     <string name="MBtnBucket_NewClover">Clover化</string>
     <string name="MBtnBucket_CopyClover">Clover複製</string>
+
+    <string name="MBtnFillImage_FillImage">塗り潰し</string>
+    <string name="MBtnFillImage_Modify">修正…</string>
+    <string name="MBtnFillImage_NewClover">Clover化</string>
+    <string name="MBtnFillImage_CopyClover">Clover複製</string>
 
     <string name="MBtnEllipse_Ellipse">楕円</string>
     <string name="MBtnEllipse_Brush">ブラシ…</string>
@@ -494,8 +523,9 @@
     <string name="MBtnImage_MergeDownDialog">編集面を１つ下へ統合処理中です…</string>
     <string name="MBtnImage_MergeDownOnlyDialog">画像統合処理中です…</string>
     <string name="MBtnImage_MergeAllDialog">表示中のレイヤーをすべて統合処理中です…</string>
+    <string name="MBtnImage_MergeFolderDialog">フォルダ内を統合処理中です…</string>
     <string name="MBtnImage_CutAndPasteDialog">切り取り画像生成中です…</string>
-    <string name="MBtnImage_CutOnlyDialog">切り取り処理中です…</string>
+    <string name="MBtnImage_MoveCutOnlyDialog">切り取り処理中です…</string>
     <string name="MBtnImage_CopyAndPasteDialog">コピー画像生成中です…</string>
     <string name="MBtnImage_MergeDialog">編集面を画像面へ統合処理中です…</string>
     <string name="MBtnImage_SwapPlane">画像面と編集面を入れ替えました</string>
@@ -680,6 +710,7 @@
     <string name="MBtnView_ScaleClv">+倍率状態</string>
     <string name="MBtnView_AllClv">+全状態</string>
     <string name="MBtnView_Navi">+ナビ表示</string>
+    <string name="MBtnView_ColSelArea">選択色…</string>
     <string name="MBtnView_Dock">ウインドウ</string>
     <string name="MBtnView_DockTool">ツール</string>
     <string name="MBtnView_DockInfo">情報</string>
@@ -688,7 +719,8 @@
     <string name="MBtnView_DockTBrush">ブラシ</string>
     <string name="MBtnView_DockTPalMain">パレット</string>
     <string name="MBtnView_DockTLayerList">レイヤー</string>
-    <string name="MBtnView_DockTHand">移動</string>
+    <string name="MBtnView_DockTHand">カメラ移動</string>
+    <string name="MBtnView_DockTMoveArrow">パッド移動</string>
     <string name="MBtnView_DockIInfoView">詳細</string>
     <string name="MBtnView_DockINaviView">ナビ</string>
     <string name="MBtnView_DockIHistory">履歴</string>
@@ -707,10 +739,19 @@
     <string name="MoveRebar_Rot270">270°</string>
     <string name="MoveRebar_FlipH">水平反転</string>
     <string name="MoveRebar_FlipV">垂直反転</string>
+    <string name="MoveRebar_Snap">吸着</string>
+    <string name="MoveRebar_SnapStepBound">境界枠</string>
+    <string name="MoveRebar_SnapStep8">Step8</string>
+    <string name="MoveRebar_SnapStep10">Step10</string>
+    <string name="MoveRebar_NumInp">数値入力</string>
+    <string name="MoveRebar_NumInpPivot">中心</string>
     <string name="MoveRebar_Init">初期値</string>
 
-    <string name="MBtnAreaMove_Apply">適用</string>
+    <string name="MBtnAreaMove_Tool">範囲移動</string>
     <string name="MBtnAreaMove_AddClover">+範囲移動</string>
+    <string name="MBtnAreaMove_SelTool">移動方法</string>
+    <string name="MBtnAreaMove_SelToolMove">移動</string>
+    <string name="MBtnAreaMove_SelToolTransform">変形</string>
 
     <string name="MBtnTransform_Tool">変形</string>
     <string name="MBtnTransform_AddClover">+変形</string>
@@ -721,25 +762,50 @@
 
     <string name="MBtnLayerTree_Return">戻る</string>
 
+    <string name="MBtnPtnFill_SelTool">塗り形状</string>
+    <string name="MBtnPtnFill_OptSetting">設定</string>
+    <string name="MBtnPtnFill_FillRect">矩形塗り</string>
+    <string name="MBtnPtnFill_FillEllipse">楕円塗り</string>
+    <string name="MBtnPtnFill_FillFree">自由塗り</string>
+    <string name="MBtnPtnFill_FillAuto">自動塗り</string>
+    <string name="MBtnPtnFill_FillModify">塗り修正中</string>
+    <string name="MBtnPtnFill_MapEdit">Map編集中</string>
+    <string name="MBtnPtnFill_Edit">編集▽</string>
+    <string name="MBtnPtnFill_EditAll">全塗り</string>
+    <string name="MBtnPtnFill_EditFlip">塗り反転</string>
+    <string name="MBtnPtnFill_EditClear">クリア</string>
+    <string name="MBtnPtnFill_EditAllClv">+全塗り</string>
+    <string name="MBtnPtnFill_EditFlipClv">+塗り反転</string>
+    <string name="MBtnPtnFill_EditClearClv">+クリア</string>
+    <string name="MBtnPtnFill_Return">戻る</string>
+
     <string name="TransformRebar_Apply">適用</string>
     <string name="TransformRebar_ApplyAndMerge">+統合</string>
+    <string name="TransformRebar_SelTrans">変形選択</string>
     <string name="TransformRebar_TransFree">自由変形</string>
     <string name="TransformRebar_TransPole">軸変形</string>
     <string name="TransformRebar_Rotate">回転</string>
     <string name="TransformRebar_Free">フリー</string>
     <string name="TransformRebar_Skew">傾き</string>
-    <string name="TransformRebar_Trape">パース</string>
-    <string name="TransformRebar_SelTrans">変形選択</string>
-    <string name="TransformRebar_NumInp">数値設定</string>
+    <string name="TransformRebar_Pers">パース</string>
     <string name="TransformRebar_Filter">フィルタ</string>
-    <string name="TransformRebar_FlipH">反転</string>
-    <string name="TransformRebar_Init">初期化</string>
     <string name="TransformRebar_Nearest">Nearest</string>
     <string name="TransformRebar_Bilinear">Bilinear</string>
     <string name="TransformRebar_Bicubic">Bicubic</string>
     <string name="TransformRebar_Lanczos2">Lncz.2</string>
     <string name="TransformRebar_Lanczos3">Lncz.3</string>
     <string name="TransformRebar_MipFilter">sw.mip</string>
+    <string name="TransformRebar_NumInp">数値設定</string>
+    <string name="TransformRebar_NumInpPivot">中心</string>
+    <string name="TransformRebar_Snap">吸着</string>
+    <string name="TransformRebar_SnapStepBound">境界枠</string>
+    <string name="TransformRebar_SnapStep8">Step8</string>
+    <string name="TransformRebar_SnapStep10">Step10</string>
+    <string name="TransformRebar_Undo">元に戻す</string>
+    <string name="TransformRebar_Redo">やり直し</string>
+    <string name="TransformRebar_UndoClear">消去</string>
+    <string name="TransformRebar_Init">初期化</string>
+    <string name="TransformRebar_FlipH">反転</string>
 
     <string name="RulerRebar_Shape">形状</string>
     <string name="RulerRebar_HitBar">範囲</string>
@@ -778,40 +844,118 @@
 	<string name="RulerRebar_View_M_Point"		>点</string>
 	<string name="RulerRebar_View_M_Line"		>線</string>
 	<string name="RulerRebar_View_M_Bar"		>帯</string>
-
-    <string name="Core_EventTrans_FmtFltPos" formatted="false">移動　:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltRot" formatted="false">回転　:%s %7.2f</string>
-    <string name="Core_EventTrans_FmtFltScl" formatted="false">倍率　:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltSkw" formatted="false">傾き　:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFltTrp" formatted="false">パース:%7.2f,%7.2f</string>
-    <string name="Core_EventTrans_FmtFlip"   formatted="false">反転　:[%s]%s</string>
-    <string name="Core_EventTrans_FltType"   formatted="false">フィルタ:[%s]</string>
-    <string name="Core_EventTrans_FltUseMip" formatted="false">Mipmap利用:[%s]</string>
+	
+	<string name="FillImageRebar_Shape"			>形状</string>
+	<string name="FillImageRebar_FillType"		>塗り選択</string>
+	<string name="FillImageRebar_FillSetting"	>設定…</string>
+	<string name="FillImageRebar_AutoApply"		>自動適用</string>
+	<string name="FillImageRebar_Shape_Fill"	>塗り潰し</string>
+	<string name="FillImageRebar_Shape_Rect"	>矩形</string>
+	<string name="FillImageRebar_Shape_Circle"	>円</string>
+	<string name="FillImageRebar_Shape_Free"	>自由領域</string>
+	<string name="FillImageRebar_FillType_Fill"		>単色</string>
+	<string name="FillImageRebar_FillType_Gradation">グラデ</string>
+	<string name="FillImageRebar_FillType_Pattern"	>パターン</string>
+	
+    <string name="Core_EventTrans_FmtPos"      formatted="false">移動　%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtPivot"    formatted="false">中心　%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtScl"      formatted="false">倍率　%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtRot"      formatted="false">回転　%s %7.2f</string>
+    <string name="Core_EventTrans_FmtFlip"     formatted="false">反転　[%s]%s</string>
+    <string name="Core_EventTrans_FmtSubPos"   formatted="false">位置　%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtSubPivot" formatted="false">中心　%7.2f,%7.2f</string>
+    <string name="Core_EventTrans_FmtSkew"     formatted="false">傾き　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtPers"     formatted="false">パース%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFRectLT"  formatted="false">枠LT　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFRectRB"  formatted="false">枠RB　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos0"    formatted="false">点LT　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos1"    formatted="false">点RT　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos2"    formatted="false">点LB　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FmtFPos3"    formatted="false">点RB　%7.2f:%7.2f</string>
+    <string name="Core_EventTrans_FltType"     formatted="false">フィルタ[%s]</string>
+    <string name="Core_EventTrans_FltUseMip"   formatted="false">Mipmap利用[%s]</string>
     <string name="Core_EventTrans_ConvOutImageEventError" formatted="false">レイヤーの変形に失敗しました(%d)</string>
     <string name="Core_EventTrans_TransformProgress" formatted="false">レイヤー変形中です</string>
     <string name="Core_EventTrans_ClipFromBound">大きいため編集枠でクリップします</string>
+    <string name="Core_EventTrans_ApplyBeforeExit">変形ツールを終了する前に変換を適用</string>
     <string name="Core_EventTrans_NotValid">変形すべき有効なイメージが選択されていない</string>
 
     <string name="MBtnSelect_SelTool">選択方法</string>
-    <string name="MBtnSelect_SelToolRect">矩形選択</string>
-    <string name="MBtnSelect_SelToolEllipse">楕円選択</string>
-    <string name="MBtnSelect_SelToolFree">自由選択</string>
-    <string name="MBtnSelect_SelToolAuto">自動選択</string>
+    <string name="MBtnSelect_SelRect">矩形選択</string>
+    <string name="MBtnSelect_SelEllipse">楕円選択</string>
+    <string name="MBtnSelect_SelFree">自由選択</string>
+    <string name="MBtnSelect_SelAuto">自動選択</string>
+    <string name="MBtnSelect_SelModify">修正中</string>
     <string name="MBtnSelect_Blend">合成方法</string>
     <string name="MBtnSelect_Return">戻る</string>
     <string name="MBtnSelect_OptSetting">設定</string>
-    <string name="MBtnSelect_SelEdit">編集▽</string>
-    <string name="MBtnSelect_SelEditAll">全選択</string>
-    <string name="MBtnSelect_SelEditFlip">選択反転</string>
-    <string name="MBtnSelect_SelEditClear">選択解除</string>
-    <string name="MBtnSelect_SelEditAllClv">+全選択</string>
-    <string name="MBtnSelect_SelEditFlipClv">+選択反転</string>
-    <string name="MBtnSelect_SelEditClearClv">+選択解除</string>
+    <string name="MBtnSelect_Edit">編集▽</string>
+    <string name="MBtnSelect_EditAll">全選択</string>
+    <string name="MBtnSelect_EditFlip">選択反転</string>
+    <string name="MBtnSelect_EditClear">選択解除</string>
+    <string name="MBtnSelect_EditAllClv">+全選択</string>
+    <string name="MBtnSelect_EditFlipClv">+選択反転</string>
+    <string name="MBtnSelect_EditClearClv">+選択解除</string>
     <string name="MBtnSelect_BldMov">置換</string>
     <string name="MBtnSelect_BldMod">変調</string>
     <string name="MBtnSelect_BldMul">乗算</string>
     <string name="MBtnSelect_BldSub">減算</string>
     <string name="MBtnSelect_BldAdd">加算</string>
+
+    <string name="SelectRebar_Next">次へ</string>
+    <string name="SelectRebar_Modify">修正</string>
+    <string name="SelectRebar_Apply">適用</string>
+    <string name="SelectRebar_Blend"> </string>
+    <string name="SelectRebar_Blur">ぼかし</string>
+    <string name="SelectRebar_NumInp">数値設定</string>
+    <string name="SelectRebar_Reset">初期化</string>
+
+    <string name="PtnFillRebar_Apply">適用</string>
+    <string name="PtnFillRebar_Modify">編集</string>
+    <string name="PtnFillRebar_New">+新規</string>
+    <string name="PtnFillRebar_Return">戻る</string>
+    <string name="PtnFillRebar_MapEdit">Map編集</string>
+    <string name="PtnFillRebar_FillType">塗タイプ</string>
+    <string name="PtnFillRebar_FillTypeColor">単色</string>
+    <string name="PtnFillRebar_FillTypePattern">パターン</string>
+    <string name="PtnFillRebar_FillTypeGradation">グラデ</string>
+    <string name="PtnFillRebar_FillSetting">設定</string>
+    <string name="PtnFillRebar_FillSettingGradLinear">リニア</string>
+    <string name="PtnFillRebar_FillSettingGradRipple">波紋</string>
+    <string name="PtnFillRebar_FillSettingGradRadial">放射</string>
+    <string name="PtnFillRebar_Coordinate">座標系</string>
+    <string name="PtnFillRebar_CoordWorld">ワールド</string>
+    <string name="PtnFillRebar_CoordLocal">ローカル</string>
+    <string name="PtnFillRebar_CoordLclRotOnly">回転のみ</string>
+    <string name="PtnFillRebar_CoordEditRect">編集枠</string>
+    <string name="PtnFillRebar_Repeat">繰り返し</string>
+    <string name="PtnFillRebar_RepeatXLoop">Xループ</string>
+    <string name="PtnFillRebar_RepeatXRev">X反転</string>
+    <string name="PtnFillRebar_RepeatXRSt">X反開始</string>
+    <string name="PtnFillRebar_RepeatYLoop">Yループ</string>
+    <string name="PtnFillRebar_RepeatYRev">Y反転</string>
+    <string name="PtnFillRebar_RepeatYRSt">Y反開始</string>
+    <string name="PtnFillRebar_RepeatGLoop">グラデL</string>
+    <string name="PtnFillRebar_RepeatGRev">G反転</string>
+    <string name="PtnFillRebar_RepeatGRSt">G反開始</string>
+    <string name="PtnFillRebar_NumInp">数値設定</string>
+    <string name="PtnFillRebar_Reset">初期化</string>
+
+    <string name="MapRepeatSetting_MapFill">パターンの繰り返し</string>
+    <string name="MapRepeatSetting_MapFillTrue">範囲外も繰り返して塗りつぶし</string>
+    <string name="MapRepeatSetting_MapFillFalse">範囲内のみ塗りつぶし</string>
+    <string name="MapRepeatSetting_AxisX">X軸マップ</string>
+    <string name="MapRepeatSetting_AxisY">Y軸マップ</string>
+    <string name="MapRepeatSetting_Reverse">マップ反転フラグ</string>
+    <string name="MapRepeatSetting_ReverseTrue">ループするときマッピングを反転する</string>
+    <string name="MapRepeatSetting_ReverseFalse">マッピングの反転はしない</string>
+    <string name="MapRepeatSetting_StartReverse">反転開始フラグ</string>
+    <string name="MapRepeatSetting_StartReverseTrue">反転状態で開始する</string>
+    <string name="MapRepeatSetting_StartReverseFalse">通常マッピングで開始する</string>
+    <string name="MapRepeatSetting_DivCount">内部分割数</string>
+
+    <string name="BuildFreeSelect_FillDialog">ラスタライズ処理中です…</string>
+    <string name="BuildBlurFilter_WaitDialog">ぼかしフィルタ適用中です…</string>
 
     <string name="MBtnPSEdit_Return">戻る</string>
     <string name="MBtnPSEdit_SelMode">モード選択</string>
@@ -951,29 +1095,48 @@
     <string name="ToolDock_PalGrad_GammaG">G-ガンマ値</string>
     <string name="ToolDock_PalGrad_GammaB">B-ガンマ値</string>
     
-    <string name="ToolDock_InfoView_TitleDrawProf">描画プロファイル</string>
-    <string name="ToolDock_InfoView_TitleCamera">カメラ</string>
-    <string name="ToolDock_InfoView_TitleDispCol">表示面</string>
-    <string name="ToolDock_InfoView_TitleEditCol">編集面</string>
-    <string name="ToolDock_InfoView_TitleCanvas">キャンバス</string>
-    <string name="ToolDock_InfoView_TitleSelRange">選択範囲</string>
-    <string name="ToolDock_InfoView_TitleTrans">変形</string>
-    <string name="ToolDock_InfoView_TitleMove">移動</string>
-    <string name="ToolDock_InfoView_TitlePSEdit">線の移動</string>
-    <string name="ToolDock_InfoView_InvTransPos" >"位置  ----.--  ----.--"</string>
-    <string name="ToolDock_InfoView_InvTransRot" >"回転   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransScl" >"倍率   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransSkew">"傾き   ---.--   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransPers">"パース ---.--   ---.--"</string>
-    <string name="ToolDock_InfoView_InvTransFlip">"反転 -----"</string>
-    <string name="ToolDock_InfoView_InvMovePos"  >"位置  -----  -----"</string>
-    <string name="ToolDock_InfoView_TransPos"  formatted="false">"位置  %7.2f %7.2f"</string>
-    <string name="ToolDock_InfoView_TransRot"  formatted="false">"回転   %6.2f"</string>
-    <string name="ToolDock_InfoView_TransScl"  formatted="false">"倍率   %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransSkew" formatted="false">"傾き   %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransPers" formatted="false">"パース %6.2f  %6.2f"</string>
-    <string name="ToolDock_InfoView_TransFlip" formatted="false">"反転 [ %c ]"</string>
-    <string name="ToolDock_InfoView_MovePos"   formatted="false">"位置 %6d %6d"</string>
+    <string name="ToolDock_InfoView_TitleDrawProf" >描画プロファイル</string>
+    <string name="ToolDock_InfoView_TitleCamera"   >カメラ</string>
+    <string name="ToolDock_InfoView_TitleDispCol"  >表示面</string>
+    <string name="ToolDock_InfoView_TitleEditCol"  >編集面</string>
+    <string name="ToolDock_InfoView_TitleCanvas"   >キャンバス</string>
+    <string name="ToolDock_InfoView_TitleSelRange" >選択範囲</string>
+    <string name="ToolDock_InfoView_TitleTrans"    >変形</string>
+    <string name="ToolDock_InfoView_TitleTransSkew">傾き</string>
+    <string name="ToolDock_InfoView_TitleTransPers">パース</string>
+    <string name="ToolDock_InfoView_TitleTransFree">自由変形</string>
+    <string name="ToolDock_InfoView_TitleMove"     >移動</string>
+    <string name="ToolDock_InfoView_TitlePSEdit"   >線の移動</string>
+    <string name="ToolDock_InfoView_InvTransPos"     >"位置  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransPivot"   >"中心  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransRot"     >"回転   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransScl"     >"倍率   ---.--"</string>
+    <string name="ToolDock_InfoView_InvTransSubPos"  >"移動  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransSubPivot">"中心  ----.--  ----.--"</string>
+    <string name="ToolDock_InfoView_InvTransSkew"    >"傾き   ---.--  :---.--"</string>
+    <string name="ToolDock_InfoView_InvTransPers"    >"パース ---.--  :---.--"</string>
+    <string name="ToolDock_InfoView_InvTransFlip"    >"反転 -----"</string>
+    <string name="ToolDock_InfoView_InvMovePos"      >"位置  ------  ------"</string>
+    <string name="ToolDock_InfoView_InvMovePivot"    >"中心  ------  ------"</string>
+    <string name="ToolDock_InfoView_InvMoveShift"    >"移動  ------  ------"</string>
+    <string name="ToolDock_InfoView_TransPos"      formatted="false">"位置  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransPivot"    formatted="false">"中心  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransScl"      formatted="false">"倍率   %6.2f  %6.2f"</string>
+    <string name="ToolDock_InfoView_TransRot"      formatted="false">"回転   %6.2f"</string>
+    <string name="ToolDock_InfoView_TransFlip"     formatted="false">"反転 [ %c ]"</string>
+    <string name="ToolDock_InfoView_TransSubPos"   formatted="false">"位置  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransSubPivot" formatted="false">"中心  %7.2f %7.2f"</string>
+    <string name="ToolDock_InfoView_TransSkew"     formatted="false">"傾き   %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransPers"     formatted="false">"パース %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFRectLT"  formatted="false">"枠LT %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFRectRB"  formatted="false">"枠RB %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos0"    formatted="false">"点LT %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos1"    formatted="false">"点RT %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos2"    formatted="false">"点LB %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_TransFPos3"    formatted="false">"点RB %6.2f :%6.2f"</string>
+    <string name="ToolDock_InfoView_MovePos"       formatted="false">"位置 %6d %6d"</string>
+    <string name="ToolDock_InfoView_MovePivot"     formatted="false">"中心 %6d %6d"</string>
+    <string name="ToolDock_InfoView_MoveShift"     formatted="false">"移動 %6d %6d"</string>
     <string name="ToolDock_InfoView_InvPSEditPos" >"位置  ----.--  ----.--"</string>
     <string name="ToolDock_InfoView_InvPSEditRot" >"回転   ---.--"</string>
     <string name="ToolDock_InfoView_InvPSEditScl" >"倍率   ---.--"</string>
@@ -1031,13 +1194,33 @@
     <string name="ToolDock_ClvBoxLocal_UseSmallIconFalse">普通サイズのアイコンを利用</string>
     <string name="ToolDock_ClvBoxLocal_IsFirstDropDialogDesc">このウインドウのCloverアイコンは画像データ内部に保存されます</string>
     
-    <string name="LayerTreeActionMenu_ModeSwitch">Tree編集へ</string>
+    <string name="LayerTreeMenuTabItem_SecondPane">ツリー表示</string>
+    <string name="LayerTreeMenuTabItem_ActionMenu">操作</string>
+    <string name="LayerTreeMenuTabItem_OptionMenu">オプション</string>
+    
+    <string name="LayerTreeAction_cmdAddLayer"		>レイヤー追加</string>
+    <string name="LayerTreeAction_cmdCpyLayer"		>レイヤー複製</string>
+    <string name="LayerTreeAction_cmdDelLayer"		>レイヤー削除</string>
+    <string name="LayerTreeAction_cmdAddFolder"		>フォルダ追加</string>
+    <string name="LayerTreeAction_cmdMergeFolder"	>フォルダ内を統合</string>
+    <string name="LayerTreeAction_cmdAddMergeFolder">フォルダ内を統合して追加</string>
+    <string name="LayerTreeAction_cmdExtractFolder"	>フォルダを解除</string>
+    <string name="LayerTreeAction_cmdMergeDown"		>下のレイヤーに合成</string>
+    <string name="LayerTreeAction_cmdMergeAll"		>すべての画像を統合</string>
+    <string name="LayerTreeAction_cmdAddMergeAll"	>すべての画像を統合して追加</string>
+    <string name="LayerTreeAction_cmdAddWhiteMask"	>マスク追加(すべて表示)</string>
+    <string name="LayerTreeAction_cmdAddBlackMask"	>マスク追加(非表示)</string>
+    <string name="LayerTreeAction_cmdAddSelectMask"	>マスク追加(選択範囲から変換)</string>
+    <string name="LayerTreeAction_cmdAddNotSelMask"	>マスク追加(選択範囲を反転して変換)</string>
+    <string name="LayerTreeAction_cmdDelMask"		>マスク削除</string>
+    <string name="LayerTreeAction_cmdApplyMask"		>マスクを画像に適用</string>
+    <string name="LayerTreeAction_cmdCpyMaskToSel"	>マスクを選択範囲にコピー</string>
+    <string name="LayerTreeAction_cmdModMaskToSel"	>選択範囲をマスクで変調</string>
+    <string name="LayerTreeAction_cmdMulMaskToSel"	>選択範囲をマスクと乗算</string>
+    <string name="LayerTreeAction_cmdSubMaskToSel"	>選択範囲からマスクを除外</string>
+    <string name="LayerTreeAction_cmdAddMaskToSel"	>選択範囲にマスクを追加</string>
     <string name="LayerTreeActionMenu_Run">実行</string>
     <string name="LayerTreeActionMenu_Apply">適用</string>
-    <string name="LayerTreeActionMenu_Return">戻る</string>
-    
-    <string name="LayerTreeSecondPane_ModeSwitch">操作メニューへ</string>
-    <string name="LayerTreeSecondPane_Return">戻る</string>
     
     <string name="PSEditBrush_BtnPick"		>つまむ</string>
     <string name="PSEditBrush_BtnMove"		>移動</string>
@@ -1092,6 +1275,8 @@
     <string name="CloverRect_LeafPickUp">持つ</string>
     <string name="CloverRect_LeafDraw">描画</string>
 
+    <string name="CloverFillImage_Label">塗り潰し</string>
+
     <string name="CloverProp_ProtectMove">クローバーアイコン移動の禁止</string>
     <string name="CloverProp_ProtectMoveTrue">アイコン移動を禁止する</string>
     <string name="CloverProp_ProtectMoveFalse">アイコンの移動を許可する</string>
@@ -1122,6 +1307,18 @@
     <string name="CloverProp_PenExtend">その他パラメータの保存・設定</string>
     <string name="CloverProp_PenExtendTrue">その他パラメータをクローバーに保存する</string>
     <string name="CloverProp_PenExtendFalse">その他パラメータは変化させない</string>
+    <string name="CloverProp_SelTransMode">変形ツール起動時のモード選択</string>
+    <string name="CloverProp_SelTransModeNone">最後の状態を復元</string>
+    <string name="CloverProp_SelTransModePole">軸回転モードで起動</string>
+    <string name="CloverProp_SelTransModeFree">自由変形モードで起動</string>
+    <string name="CloverProp_AreaMoveSelTool">範囲移動ツール起動時のモード選択</string>
+    <string name="CloverProp_AreaMoveSelToolNone">最後の状態を復元</string>
+    <string name="CloverProp_AreaMoveSelToolMove">移動ツールを起動</string>
+    <string name="CloverProp_AreaMoveSelToolTrans">変形ツールを起動</string>
+    <string name="CloverProp_AreaMoveSelTransMode">変形ツールを起動したときのモード選択</string>
+    <string name="CloverProp_AreaMoveSelTransModeNone">最後の状態を復元</string>
+    <string name="CloverProp_AreaMoveSelTransModePole">軸回転モードで起動</string>
+    <string name="CloverProp_AreaMoveSelTransModeFree">自由変形モードで起動</string>
 
     <string name="Core_CloverPaintAppExitDialog">CloverPaintを終了します</string>
     <string name="Core_CloverMemoLiteAppExitDialog">CloverメモLiteを終了します</string>
@@ -1172,7 +1369,8 @@
     <string name="Core_EventOutput_OverwriteDialog">ファイルの上書き確認</string>
     <string name="Core_EventOutput_RoundDialog">移動座標を整数値にまるめますか？</string>
 
-    <string name="Core_EventMove_FmtIntPos" formatted="false">移動:%4d,%4d</string>
+    <string name="Core_EventMove_FmtIntPos" formatted="false">中心:%4d,%4d 移動:%4d,%4d</string>
+    <string name="Core_EventMove_ApplyBeforeExit">移動ツールを終了する前に変換を適用</string>
     <string name="Core_EventMove_NotValid">移動すべき有効なイメージが選択されていない</string>
 
     <string name="DispScreenTouchEffect_ScaleF7_2">倍率%7.2f%%</string>
@@ -1240,6 +1438,7 @@
     <string name="FevMsgDlgBox_MergeDown">↓結合</string>
     <string name="FevMsgDlgBox_eOk">確認</string>
     <string name="FevMsgDlgBox_eYes">する</string>
+    <string name="FevMsgDlgBox_eApply">適用</string>
     <string name="FevMsgDlgBox_eNo">しない</string>
     <string name="FevMsgDlgBox_eCopy">コピー</string>
     <string name="FevMsgDlgBox_eCut">移動</string>
@@ -1500,9 +1699,9 @@
     <string name="BrushSetting_CallSubMoveLenTo">移動効果</string>
     <string name="BrushSetting_CallSubMoveLenToDesc">ストローク移動距離による効果を設定</string>
     <string name="BrushSetting_HoverCursorPressure">ホバー中ブラシカーソルに適用する筆圧値</string>
-    <string name="BrushSetting_UseOneShotUndo">ワンショットUndo</string>
-    <string name="BrushSetting_UseOneShotUndoTrue">描画遅延を少なくするためワンショットUndoを使う</string>
-    <string name="BrushSetting_UseOneShotUndoFalse">通常のストローク描画を行う</string>
+    <string name="BrushSetting_UseOneShotUndo">ストローク予測</string>
+    <string name="BrushSetting_UseOneShotUndoTrue">描画遅延を少なくするためストローク予測を使う</string>
+    <string name="BrushSetting_UseOneShotUndoFalse">ストローク予測は使わない</string>
     <string name="BrushSetting_OneShotLimitSize">　- 限界サイズ</string>
     <string name="BrushSetting_PredFactor">　- 予測強度</string>
     <string name="BrushSetting_JitterPerSpotSize">サイズ ジッター(spot毎)</string>
@@ -1537,6 +1736,7 @@
     <string name="JpegSetting_MaintainBaseline">ベースラインを維持</string>
     <string name="JpegSetting_NotMaintainBaseline">ベースラインを維持しない</string>
 
+    <string name="LayerSetting_LayerName">レイヤー名</string>
     <string name="LayerSetting_Visible">表示・非表示</string>
     <string name="LayerSetting_VisibleTrue">レイヤーを表示する</string>
     <string name="LayerSetting_VisibleFalse">レイヤーを表示しない</string>
@@ -1557,6 +1757,10 @@
     <string name="LayerSetting_MaskTypeMerge">下のレイヤーまでの統合不透明度でクリップ</string>
     <string name="LayerSetting_MaskTypeDown">下のレイヤー不透明度でクリップ</string>
     <string name="LayerSetting_MaskTypeDownAndClip">下のレイヤー不透明度でマスクしてクリップ</string>
+    <string name="LayerSetting_MaskLink">イメージとマスクのリンク</string>
+    <string name="LayerSetting_MaskLinkTrue">イメージ操作をマスクとリンクする</string>
+    <string name="LayerSetting_MaskLinkFalse">イメージとマスクへの操作は独立して行う</string>
+    
     <string name="CanvasSetting_PlaneMode">レイヤー構成</string>
     <string name="CanvasSetting_PlaneModeTransparent">透明レイヤーのみ</string>
     <string name="CanvasSetting_PlaneModeSingleColor">単色レイヤーのみ</string>
@@ -1576,9 +1780,65 @@
     <string name="CanvasSetting_BgPtn">図柄</string>
     <string name="CanvasSetting_BgSize">サイズ</string>
     <string name="CanvasSetting_BgPtnMove">追従</string>
-    
     <string name="CanvasSetting_NewBtn">新規作成</string>
     <string name="CanvasSetting_SaveBtn">ディフォルトに設定</string>
+
+    <string name="SelectSetting_BlurRange">ぼかし範囲</string>
+    <string name="SelectSetting_BlurType">ぼかしタイプ</string>
+    <string name="SelectSetting_AntiAlias">アンチエイリアス</string>
+    <string name="SelectSetting_AntiAliasOn">アンチエイリアス有効</string>
+    <string name="SelectSetting_AntiAliasOff">アンチエイリアス無効</string>
+    <string name="SelectSetting_SmoothType">自由選択領域の補間タイプ</string>
+    <string name="SelectSetting_SmoothType_None">補間はしない</string>
+    <string name="SelectSetting_SmoothType_BSpline">B-Splineで補間して滑らかにする</string>
+    <string name="SelectSetting_SmoothType_CatmullRom">Catmull-Romで補間して滑らかにする</string>
+    <string name="SelectSetting_BlurType_Blur">通常のぼかし処理</string>
+    <string name="SelectSetting_BlurType_Expand">ぼかしで選択範囲を拡張</string>
+    <string name="SelectSetting_BlurType_ExpandAA">AA付き選択範囲拡張</string>
+    <string name="SelectSetting_BlurType_Reduce">ぼかしで選択範囲を縮減</string>
+    <string name="SelectSetting_BlurType_ReduceAA">AA付き選択範囲縮減</string>
+
+    <string name="GradSetting_BtnPressedDialog">編集中のデータが消えます。よろしいですか？</string>
+    <string name="GradSetting_KnotBtn_AddPrev">前に追加</string>
+    <string name="GradSetting_KnotBtn_AddNext">次に追加</string>
+    <string name="GradSetting_KnotBtn_SelPrev">前を選択</string>
+    <string name="GradSetting_KnotBtn_SelNext">次を選択</string>
+    <string name="GradSetting_KnotBtn_Delete">削除</string>
+    <string name="GradSetting_KnotBtn_SetColor">色設定</string>
+    <string name="GradSetting_TabColorCh">カラーチャンネル</string>
+    <string name="GradSetting_TabMaskCh">マスクチャンネル</string>
+    <string name="GradSetting_IntrAllType">カラーチャンネル指定方法</string>
+    <string name="GradSetting_IntrAllTrue">全チャンネルまとめて指定</string>
+    <string name="GradSetting_IntrAllFalse">各チャンネル独立指定</string>
+    <string name="GradSetting_MaskKeyOpacity">マスクキー不透明度</string>
+    <string name="GradSetting_ColXCaption">RGBAチャンネル共通</string>
+    <string name="GradSetting_ColRCaption">Rチャンネル</string>
+    <string name="GradSetting_ColGCaption">Gチャンネル</string>
+    <string name="GradSetting_ColBCaption">Bチャンネル</string>
+    <string name="GradSetting_ColACaption">Aチャンネル</string>
+    <string name="GradSetting_MaskCaption">マスクチャンネル</string>
+    <string name="GradSetting_KnotPos">  Knot位置</string>
+    <string name="GradSetting_IntrType">  補間曲線タイプ</string>
+    <string name="GradSetting_IntrTypeDirect">補間なし</string>
+    <string name="GradSetting_IntrTypeLinear">直線補間</string>
+    <string name="GradSetting_IntrTypeEasing1">だんだん遅く/早く</string>
+    <string name="GradSetting_IntrTypeEasing2">両端で遅く/早く</string>
+    <string name="GradSetting_IntrPower">  補間曲線のPower値</string>
+
+    <string name="PtnSetting_ItemRename">名前変更</string>
+    <string name="PtnSetting_ItemDelete">削除</string>
+    <string name="PtnSetting_ConfirmItemDelete">パターンをリストから削除</string>
+    <string name="PtnSetting_PtnLoadDlgHeader">パターンマップ画像を設定します</string>
+    <string name="PtnSetting_ToolRename">名前変更</string>
+    <string name="PtnSetting_ToolResize">サイズ変更</string>
+    <string name="PtnSetting_ImageSizeTooLarge">イメージサイズが大きすぎます</string>
+    <string name="PtnSetting_ShurnkTo256">256以下への縮小をお勧めします</string>
+
+    <string name="PtnResize_FixSizeRatio">アスペクト比</string>
+    <string name="PtnResize_FixSizeRatioTrue">元画像のアスペクト比を維持する</string>
+    <string name="PtnResize_FixSizeRatioFalse">元画像のアスペクト比を無視</string>
+    <string name="PtnResize_ModSizeX">リサイズ後イメージ横幅</string>
+    <string name="PtnResize_ModSizeY">リサイズ後イメージ高さ</string>
 
     <string name="LayerList_OpenBtn">レイヤー</string>
     <string name="LayerList_QMaskBtn">Q.マスク</string>
@@ -1603,15 +1863,32 @@
     <string name="planeBoundWidth">横幅(8-32768)</string>
     <string name="planeBoundHeight">高さ(8-32768)</string>
 
-    <string name="transPosX">移動X</string>
-    <string name="transPosY">移動Y</string>
+    <string name="transPos">移動</string>
     <string name="transRotate">回転</string>
-    <string name="transScaleX">倍率X</string>
-    <string name="transScaleY">倍率Y</string>
-    <string name="transSkewX">傾きX</string>
-    <string name="transSkewY">傾きY</string>
-    <string name="transTrapeX">パースX</string>
-    <string name="transTrapeY">パースY</string>
+    <string name="transScale">倍率</string>
+    <string name="transPivot">中心</string>
+
+    <string name="transPolePos">移動</string>
+    <string name="transPoleSkew">傾き</string>
+    <string name="transPolePers">パース</string>
+    <string name="transPolePivot">中心</string>
+    <string name="transPolePersBase">パース軸</string>
+
+    <string name="transFreePos">移動</string>
+    <string name="transFreePos0">自由LT</string>
+    <string name="transFreePos1">自由RT</string>
+    <string name="transFreePos2">自由LB</string>
+    <string name="transFreePos3">自由RB</string>
+    <string name="transFreeBaseRectLT">枠LT</string>
+    <string name="transFreeBaseRectRB">枠RB</string>
+
+    <string name="selectRectL">←左</string>
+    <string name="selectRectT">↑上</string>
+    <string name="selectRectR">→右</string>
+    <string name="selectRectB">↓下</string>
+    <string name="selectRotate">回転</string>
+    <string name="selMoveX">移動X</string>
+    <string name="selMoveY">移動Y</string>
 
     <string name="rulerLineDlgTitle">定規パラメータの設定</string>
     <string name="rulerLineDlgApply">設定</string>
@@ -1620,6 +1897,19 @@
     <string name="rulerLineHandle">制御点</string>
     <string name="rulerLineAngle">角度</string>
     <string name="rulerLineLength">距離</string>
+
+    <string name="inputMoveInfosTitle">移動設定</string>
+    <string name="movePos">移動</string>
+    <string name="moveRotate">回転</string>
+    <string name="moveRotate0">0度</string>
+    <string name="moveRotate90">90度</string>
+    <string name="moveRotate180">180度</string>
+    <string name="moveRotate270">270度</string>
+    <string name="moveFlipTitle"></string>
+    <string name="moveFlip">反転</string>
+
+    <string name="inputPivotInfosTitle">中心設定</string>
+    <string name="movePivot">中心</string>
 
     <string name="rulerEllipseDlgTitle">定規パラメータの設定</string>
     <string name="rulerEllipseDlgApply">設定</string>
@@ -1836,7 +2126,7 @@
     <string name="TexBSCaption_StrokeBlend">ストローク合成</string>
     <string name="TexBSCaption_FlowCalc">濃度演算</string>
     <string name="TexBSCaption_SpotSpace">Spot間隔</string>
-    <string name="TexBSCaption_OneShotUndo">ワンショットUndo</string>
+    <string name="TexBSCaption_OneShotUndo">ストローク予測</string>
     
     <!-- Spot向けパラメータ -->
     <string name="TexBS_Size">ペン太さ</string>
@@ -1900,11 +2190,11 @@
     <string name="TexBS_DotPtnSingleDotChain">一点鎖線</string>
     <string name="TexBS_DotPtnDoubleDotChain">二点鎖線</string>
     <string name="TexBS_HoverCursorPressure">ホバー中ブラシカーソルに適用する筆圧値</string>
-    <string name="TexBS_UseOneShotUndo">ワンショットUndo</string>
-    <string name="TexBS_UseOneShotUndoTrue">描画遅延を少なくするためワンショットUndoを使う</string>
-    <string name="TexBS_UseOneShotUndoFalse">通常のストローク描画を行う</string>
-    <string name="TexBS_OneShotLimitSize">限界サイズ</string>
-    <string name="TexBS_PredFactor">予測強度</string>
+    <string name="TexBS_UseOneShotUndo">ストローク予測</string>
+    <string name="TexBS_UseOneShotUndoTrue">描画遅延を少なくするためストローク予測を使う</string>
+    <string name="TexBS_UseOneShotUndoFalse">ストローク予測は使わない</string>
+    <string name="TexBS_OneShotLimitSize">　- 限界サイズ</string>
+    <string name="TexBS_PredFactor">　- 予測強度</string>
     
     <!--データカテゴリポインタ -->
     <string name="TexBSPtr_SpotActiveRoll">Spot動的回転</string>
@@ -2228,6 +2518,15 @@
     <string name="TBS_tb0005">木の幹</string>
     <string name="TBS_tb0006">壁面</string>
     
+    <!-- パターンマップ - システムテクスチャ名 -->
+    <string name="TBS_pmDefault">デフォルト</string>
+    <string name="TBS_pm0001">トーン10%</string>
+    <string name="TBS_pm0002">トーン20%</string>
+    <string name="TBS_pm0003">トーン30%</string>
+    <string name="TBS_pm0004">トーン40%</string>
+    <string name="TBS_pm0005">トーン50%</string>
+    <string name="TBS_pm0006">トーン60%</string>
+
     <!-- 濃度テクスチャ - ユーザーテクスチャ追加ダイアログ -->
     <string name="TexBS_AddUserAlphaTexture">ユーザー定義テクスチャを設定します</string>
     <string name="TexBS_AddATDlg_ToolInvert">反転</string>
