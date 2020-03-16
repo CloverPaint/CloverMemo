@@ -366,7 +366,7 @@ It is very comprehensive, support full keyboard and gamepad\n
     <string name="B12105" formatted="false">
 \n
 □ version 1.21.05\n
-  - [EfT] Implemented: [Shift Hue Circle] range bar was added to the Color picker\n
+ - [EfT] Implemented: [Shift Hue Circle] range bar was added to the Color picker\n
  - [EfT] Implemented: [Window trans-hide button] was added to the window option\n
 \n
     </string>
@@ -1013,6 +1013,24 @@ It is very comprehensive, support full keyboard and gamepad\n
 - Move/Transform/AreaMove tools UI are Improved\n
 - Transform operation is possible with the AreaMove tool(Paint)\n
 - Some bug fix and improvement\n
+\n
+    </string>
+
+    <string name="B12551">
+\n
+□ version 1.24.151\n
+\n
+- Fixed an alpha texture brush bug\n
+- Fixed a bug where save button was disabled\n
+\n
+    </string>
+
+    <string name="B12560">
+\n
+□ version 1.24.160\n
+\n
+ - Optimized for Wacom One (connect with Samsung DeX)\n
+ - Fixed to save pen pressure, screen setting, etc. in DeX mode separately\n
 \n
     </string>
 

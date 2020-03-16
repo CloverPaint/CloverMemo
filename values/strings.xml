@@ -38,9 +38,11 @@
     <string name="MainOption_DispTileDelay_On">Skip tiles blend update, and defer to the next</string>
     <string name="MainOption_DispTileDelay_Off">Wait tiles blend update by using blocking</string>
     <string name="MainOption_FullScreen_Name">Full screen</string>
+    <string name="MainOption_DeXFullScreen_Name">Full screen[DeX]</string>
     <string name="MainOption_FullScreen_On">Use full screen mode (requires reboot)</string>
     <string name="MainOption_FullScreen_Off">Display notification bar (requires reboot)</string>
     <string name="MainOption_FullScreenMode_Name">Full screen mode</string>
+    <string name="MainOption_DeXFullScreenMode_Name">Full screen mode[DeX]</string>
     <string name="MainOption_FullScreenMode_NoStatus">Hide status-bar (requires reboot)</string>
     <string name="MainOption_FullScreenMode_Immersive">Full screen [KitKat] (requires reboot)</string>
     <string name="MainOption_FullScreenMode_ImmersiveSticky">Full screen (sticky)[KitKat](requires reboot)</string>
@@ -53,9 +55,6 @@
     <string name="MainOption_UseSystemRotate_Name">System Rotation</string>
     <string name="MainOption_UseSystemRotate_On">Use system screen rotattion</string>
     <string name="MainOption_UseSystemRotate_Off">Fixed to portrait mode</string>
-    <string name="MainOption_UseLandscapeFlip_Name">Landscape Flip</string>
-    <string name="MainOption_UseLandscapeFlip_On">When the Landscape mode, horizontal flipped</string>
-    <string name="MainOption_UseLandscapeFlip_Off">Normal display</string>
     <string name="MainOption_UIRotate_Name">UI Rotate</string>
     <string name="MainOption_UIRotate_Auto">Auto-rotate</string>
     <string name="MainOption_UIRotate_0">↓ Fixed to 0 degrees (Portrait)</string>
@@ -63,10 +62,12 @@
     <string name="MainOption_UIRotate_2">↑ Fixed to 180 degrees (Reverse portrait)</string>
     <string name="MainOption_UIRotate_3">→ Fixed to 270 degrees (Reverse landscape)</string>
     <string name="MainOption_UIScale_Name">UI Scale (requires reboot)</string>
+    <string name="MainOption_DeXUIScale_Name">UI Scale (requires reboot)[DeX]</string>
     <string name="MainOption_UseCloverDock_Name">Clover Docking [Requires EfT]</string>
     <string name="MainOption_UseCloverDock_On">Allow docking of Clover shortcut icons (requires reboot)</string>
     <string name="MainOption_UseCloverDock_Off">Don\'t allow docking of Clover shortcut icons (requires reboot)</string>
     <string name="MainOption_UseUIofEfT_Name">Extension UI for Tablet [Requires EfT]</string>
+    <string name="MainOption_DeXUseUIofEfT_Name">Extension UI for Tablet [Requires EfT][DeX]</string>
     <string name="MainOption_UseUIofEfT_On">Use the extension UI for tablets with digitizers (requires reboot)</string>
     <string name="MainOption_UseUIofEfT_Off">Use the default UI (requires reboot)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">Need to purchase a [Extension for Tablet] in order to use it</string>
@@ -76,6 +77,14 @@
     <string name="MainOption_ExtendBrush_Name">Extend pen setting</string>
     <string name="MainOption_ExtendBrush_On">Paint version setting is enable(*deprecated)</string>
     <string name="MainOption_ExtendBrush_Off">Paint version setting is disable</string>
+
+    <string name="MainOption_DeXSetting_Name">DeX Setting</string>
+    <string name="MainOption_AutoChangeDeXMode_Name">In the case of DeX is connected during app operation</string>
+    <string name="MainOption_AutoChangeDeXMode_On">Relaunch app automatically</string>
+    <string name="MainOption_AutoChangeDeXMode_Off">No operation</string>
+    <string name="MainOption_AutoLaunchDeXMode_Name">In the case of DeX is connected</string>
+    <string name="MainOption_AutoLaunchDeXMode_On">Launch app</string>
+    <string name="MainOption_AutoLaunchDeXMode_Off">No oeration</string>
 
     <string name="MainOption_SplitDelayStrokes_Name">Render Delay Strokes</string>
     <string name="MainOption_DsDummySprites_Name">View sprites</string>
@@ -104,11 +113,13 @@
     <string name="MainOption_DsAsyncStroke_Off">Wait rendering finished each strokes</string>
 
     <string name="MainOption_PenSlideMode_Name">Pointer Setting</string>
+    <string name="MainOption_DeXPenSlideMode_Name">Pointer Setting [DeX]</string>
     <string name="MainOption_PenSlideMode_Right">Finger (Right-handed)</string>
     <string name="MainOption_PenSlideMode_Left">Finger(Left-handed)</string>
     <string name="MainOption_PenSlideMode_PenRight">Stylus (Right-handed)</string>
     <string name="MainOption_PenSlideMode_PenLeft">Stylus(Left-handed)</string>
     <string name="MainOption_VanishUIWhileStroke_Name">Vanish UI</string>
+    <string name="MainOption_DeXVanishUIWhileStroke_Name">Vanish UI[DeX]</string>
     <string name="MainOption_VanishUIWhileStroke_On">Hide the UI during a stroke</string>
     <string name="MainOption_VanishUIWhileStroke_Off">Do not hide the UI during a stroke</string>
     <string name="MainOption_PenOuterCursor_Name">Pen outer circle opacity</string>
@@ -232,12 +243,17 @@
     <string name="MainOption_AutoSaveTime_60">Save after 60 idle seconds</string>
     <string name="MainOption_AutoSaveTime_120">Save after 2 idle minutes</string>
     <string name="MainOption_TouchPressure_Name">Touch pressure</string>
+    <string name="MainOption_DeXTouchPressure_Name">Touch pressure[DeX]</string>
     <string name="MainOption_TouchPressure_On">Touch pressure is enabled</string>
     <string name="MainOption_TouchPressure_Off">Touch pressure is disabled</string>
     <string name="MainOption_TouchPressMin_Name">Minimum value</string>
+    <string name="MainOption_DeXTouchPressMin_Name">[DeX]Minimum value</string>
     <string name="MainOption_TouchPressMax_Name">Maximum value</string>
+    <string name="MainOption_DeXTouchPressMax_Name">[DeX]Maximum value</string>
     <string name="MainOption_TouchPressPower_Name">Power(Soft←  →Hard)</string>
+    <string name="MainOption_DeXTouchPressPower_Name">[DeX]Power(Soft←  →Hard)</string>
     <string name="MainOption_TouchPressRatio_Name">Ratio</string>
+    <string name="MainOption_DeXTouchPressRatio_Name">[DeX]Ratio</string>
     <string name="MainOption_TouchPressTest_Name">Pressure Setting Test Area</string>
     <string name="MainOption_TouchPressTest_Desc">- </string>
     <string name="MainOption_TouchPressAuto_Name">Semi-automatic Pressure Calibration</string>
@@ -287,10 +303,13 @@
     <string name="MainOption_HoverSysCsr_LargeCross">Cross (large)</string>
     <string name="MainOption_HoverSysCsr_LargeDot">Dot (large)</string>
     <string name="MainOption_UseDIPCsr_Name">Cursor scaling</string>
+    <string name="MainOption_DeXUseDIPCsr_Name">Cursor scaling[DeX]</string>
     <string name="MainOption_UseDIPCsr_On">Display cursor with independence from device resolution</string>
     <string name="MainOption_UseDIPCsr_Off">Display cursor with dot by dot</string>
     <string name="MainOption_CsrScaling_Name">Scaling percentage of a cursor</string>
+    <string name="MainOption_DeXCsrScaling_Name">Scaling percentage of a cursor[DeX]</string>
     <string name="MainOption_Calibration_Name">Calibration</string>
+    <string name="MainOption_Calibration_DeXName">Calibration[DeX]</string>
     <string name="MainOption_Calibration_Desc">Error correction of the stylus pointer</string>
     <string name="MainOption_ResetCal_Name">Reset calibration</string>
     <string name="MainOption_ResetCal_Desc">Delete calibration info</string>
@@ -323,10 +342,13 @@
     <string name="MainOption_SplitGeneral_Name">General</string>
     <string name="MainOption_SplitCanvas_Name">Canvas</string>
     <string name="MainOption_MoveCircleSize_Name">Circle size</string>
+    <string name="MainOption_DeXMoveCircleSize_Name">[DeX]Circle size</string>
     <string name="MainOption_MoveCenter_Name">Move center</string>
+    <string name="MainOption_DeXMoveCenter_Name">Move center[DeX]</string>
     <string name="MainOption_MoveCenter_On">Move circle center by hover cursor</string>
     <string name="MainOption_MoveCenter_Off">Circle center fixation the screen center</string>
     <string name="MainOption_MoveCenterReset_Name">Reset the circle center at each tap</string>
+    <string name="MainOption_DeXMoveCenterReset_Name">Reset the circle center at each tap[DeX]</string>
     <string name="MainOption_MoveCenterReset_On">The circle center set to position at after tap location</string>
     <string name="MainOption_MoveCenterReset_Off">The circle center is not move from shortcut startup</string>
     <string name="MainOption_SplitPaintSystem_Name">Paint - System</string>
@@ -365,6 +387,9 @@
     <string name="MainConfirmDlg_TransDataMod_Name"    >Confirm discarding the modified data of the transform tool</string>
     <string name="MainConfirmDlg_TransDataMod_On"      >Display</string>
     <string name="MainConfirmDlg_TransDataMod_Off"     >Do not display</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_Name"   >Confirm auto relaunch app at DeX connecting</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_On"     >Display</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_Off"    >Do not display</string>
 
     <string name="DtPen_Undo">draw by the pen</string>
     <string name="DtMove_Undo">move the plane</string>
@@ -1369,6 +1394,8 @@
     <string name="Core_EventOutput_OverwriteDialog">Overwrite confirmation of the file</string>
     <string name="Core_EventOutput_RoundDialog">Move conversion flt numbers to int</string>
 
+    <string name="ConfirmDlgTitle_RelaunchAtDeX">DeX connection detected. Enable auto relaunch?</string>
+
     <string name="Core_EventMove_FmtIntPos" formatted="false">pivot:%4d,%4d pos:%4d,%4d</string>
     <string name="Core_EventMove_ApplyBeforeExit">Apply current deform before exiting the move tool</string>
     <string name="Core_EventMove_NotValid">Is not selecting image valid for move</string>
@@ -1846,6 +1873,8 @@
     <string name="LayerParam_SettingBtn">Setting</string>
     <string name="LayerParam_OpacityDesc">Layer opacity</string>
     <string name="LayerParam_OpacitySlider">%4.1f%%</string>
+
+    <string name="restartActivityText">Now saving...</string>
 
     <string name="inputCloverCaption">Caption</string>
     <string name="inputCloverDescription">Description</string>

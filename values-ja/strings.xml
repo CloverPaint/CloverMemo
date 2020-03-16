@@ -38,9 +38,11 @@
     <string name="MainOption_DispTileDelay_On">未完了の処理をスキップして次回表示する</string>
     <string name="MainOption_DispTileDelay_Off">未完了の処理をブロックして待つ</string>
     <string name="MainOption_FullScreen_Name">フルスクリーン</string>
+    <string name="MainOption_DeXFullScreen_Name">フルスクリーン[DeX]</string>
     <string name="MainOption_FullScreen_On">フルスクリーンにする(*要再起動)</string>
     <string name="MainOption_FullScreen_Off">通知領域等を表示する(*要再起動)</string>
     <string name="MainOption_FullScreenMode_Name">フルスクリーンモード</string>
+    <string name="MainOption_DeXFullScreenMode_Name">フルスクリーンモード[DeX]</string>
     <string name="MainOption_FullScreenMode_NoStatus">ステータスバーを隠す(*要再起動)</string>
     <string name="MainOption_FullScreenMode_Immersive">固定フルスクリーン[KitKat以上](*要再起動)</string>
     <string name="MainOption_FullScreenMode_ImmersiveSticky">自動フルスクリーン[KitKat以上](*要再起動)</string>
@@ -53,9 +55,6 @@
     <string name="MainOption_UseSystemRotate_Name">システムによる回転</string>
     <string name="MainOption_UseSystemRotate_On">システムのスクリーン回転を利用する</string>
     <string name="MainOption_UseSystemRotate_Off">システムはPortraitモードに固定</string>
-    <string name="MainOption_UseLandscapeFlip_Name">Landscape反転</string>
-    <string name="MainOption_UseLandscapeFlip_On">Landscapeモードの時上下を反転させる</string>
-    <string name="MainOption_UseLandscapeFlip_Off">通常表示</string>
     <string name="MainOption_UIRotate_Name">UIの回転</string>
     <string name="MainOption_UIRotate_Auto">端末の回転に合わせる</string>
     <string name="MainOption_UIRotate_0">↓0°に固定(Portrait)</string>
@@ -63,10 +62,12 @@
     <string name="MainOption_UIRotate_2">↑180°に固定</string>
     <string name="MainOption_UIRotate_3">→270°に固定</string>
     <string name="MainOption_UIScale_Name">UIサイズ調整(*要再起動)</string>
+    <string name="MainOption_DeXUIScale_Name">UIサイズ調整(*要再起動)[DeX]</string>
     <string name="MainOption_UseCloverDock_Name">Cloverドッキング [要EfT]</string>
     <string name="MainOption_UseCloverDock_On">Cloverショートカットのドッキング機能を利用(*要再起動)</string>
     <string name="MainOption_UseCloverDock_Off">Cloverショートカットのドッキングはしない(*要再起動)</string>
     <string name="MainOption_UseUIofEfT_Name">タブレット用UI [要EfT]</string>
+    <string name="MainOption_DeXUseUIofEfT_Name">タブレット用UI [要EfT][DeX]</string>
     <string name="MainOption_UseUIofEfT_On">デジタイザー付きタブレット用のUIを利用(*要再起動)</string>
     <string name="MainOption_UseUIofEfT_Off">通常のUIを利用(*要再起動)</string>
     <string name="MainOption_NeedBuyEfTDlgTitle">「タブレット用機能拡張」の購入が必要な機能です</string>
@@ -76,6 +77,14 @@
     <string name="MainOption_ExtendBrush_Name">ペンブラシ設定拡張</string>
     <string name="MainOption_ExtendBrush_On">Paint版ブラシ設定を有効にする(*将来廃止)</string>
     <string name="MainOption_ExtendBrush_Off">Paint版ブラシ設定を無効にする</string>
+    
+    <string name="MainOption_DeXSetting_Name">DeX基本設定</string>
+    <string name="MainOption_AutoChangeDeXMode_Name">アプリ動作中のDeX接続時の動作</string>
+    <string name="MainOption_AutoChangeDeXMode_On">自動的にアプリを再起動する</string>
+    <string name="MainOption_AutoChangeDeXMode_Off">再起動しない</string>
+    <string name="MainOption_AutoLaunchDeXMode_Name">DeX接続時の動作</string>
+    <string name="MainOption_AutoLaunchDeXMode_On">アプリを起動</string>
+    <string name="MainOption_AutoLaunchDeXMode_Off">起動しない</string>
 
     <string name="MainOption_SplitDelayStrokes_Name">ストローク遅延レンダ</string>
     <string name="MainOption_DsDummySprites_Name">スプライト表示</string>
@@ -104,11 +113,13 @@
     <string name="MainOption_DsAsyncStroke_Off">ストローク毎に遅延レンダリングの完了を待つ</string>
 
     <string name="MainOption_PenSlideMode_Name">ペン先表示</string>
+    <string name="MainOption_DeXPenSlideMode_Name">ペン先表示[DeX]</string>
     <string name="MainOption_PenSlideMode_Right">指先用(右利き)</string>
     <string name="MainOption_PenSlideMode_Left">指先用(左利き)</string>
     <string name="MainOption_PenSlideMode_PenRight">スタイラス用(右利き)</string>
     <string name="MainOption_PenSlideMode_PenLeft">スタイラス用(左利き)</string>
     <string name="MainOption_VanishUIWhileStroke_Name">UI非表示</string>
+    <string name="MainOption_DeXVanishUIWhileStroke_Name">UI非表示[DeX]</string>
     <string name="MainOption_VanishUIWhileStroke_On">ストローク中UIを非表示にする</string>
     <string name="MainOption_VanishUIWhileStroke_Off">UI非表示はしない</string>
     <string name="MainOption_PenOuterCursor_Name">ペンカーソル円不透明度(外)</string>
@@ -232,12 +243,17 @@
     <string name="MainOption_AutoSaveTime_60">最後の操作から一分経過後</string>
     <string name="MainOption_AutoSaveTime_120">最後の操作から二分経過後</string>
     <string name="MainOption_TouchPressure_Name">筆圧感知</string>
+    <string name="MainOption_DeXTouchPressure_Name">筆圧感知[DeX]</string>
     <string name="MainOption_TouchPressure_On">筆圧感知を使う</string>
     <string name="MainOption_TouchPressure_Off">筆圧感知は無効</string>
     <string name="MainOption_TouchPressMin_Name">筆圧範囲最小</string>
+    <string name="MainOption_DeXTouchPressMin_Name">[DeX]筆圧範囲最小</string>
     <string name="MainOption_TouchPressMax_Name">筆圧範囲最大</string>
+    <string name="MainOption_DeXTouchPressMax_Name">[DeX]筆圧範囲最大</string>
     <string name="MainOption_TouchPressPower_Name">筆圧硬さ(柔らか← →硬い)</string>
+    <string name="MainOption_DeXTouchPressPower_Name">[DeX]筆圧硬さ(柔らか← →硬い)</string>
     <string name="MainOption_TouchPressRatio_Name">筆圧適用率</string>
+    <string name="MainOption_DeXTouchPressRatio_Name">[DeX]筆圧適用率</string>
     <string name="MainOption_TouchPressTest_Name">筆圧設定テスト領域</string>
     <string name="MainOption_TouchPressTest_Desc">- </string>
     <string name="MainOption_TouchPressAuto_Name">半自動筆圧範囲設定領域</string>
@@ -287,10 +303,13 @@
     <string name="MainOption_HoverSysCsr_LargeCross">十字(大きい)</string>
     <string name="MainOption_HoverSysCsr_LargeDot">ドット(大きい)</string>
     <string name="MainOption_UseDIPCsr_Name">カーソル表示サイズ</string>
+    <string name="MainOption_DeXUseDIPCsr_Name">カーソル表示サイズ[DeX]</string>
     <string name="MainOption_UseDIPCsr_On">カーソルを解像度に合わせてスケーリング</string>
     <string name="MainOption_UseDIPCsr_Off">カーソル画像のピクセルをそのまま表示</string>
     <string name="MainOption_CsrScaling_Name">カーソル表示倍率</string>
+    <string name="MainOption_DeXCsrScaling_Name">カーソル表示倍率[DeX]</string>
     <string name="MainOption_Calibration_Name">スタイラスの補正</string>
+    <string name="MainOption_Calibration_DeXName">スタイラスの補正[DeX]</string>
     <string name="MainOption_Calibration_Desc">スタイラスポインタのズレを補正します</string>
     <string name="MainOption_ResetCal_Name">スタイラスの補正リセット</string>
     <string name="MainOption_ResetCal_Desc">キャリブレーションデータを消去し補正を無くします</string>
@@ -323,10 +342,13 @@
     <string name="MainOption_SplitGeneral_Name">一般</string>
     <string name="MainOption_SplitCanvas_Name">キャンバス</string>
     <string name="MainOption_MoveCircleSize_Name">操作円大きさ設定</string>
+    <string name="MainOption_DeXMoveCircleSize_Name">[DeX]操作円大きさ設定</string>
     <string name="MainOption_MoveCenter_Name">操作円の中心</string>
+    <string name="MainOption_DeXMoveCenter_Name">操作円の中心[DeX]</string>
     <string name="MainOption_MoveCenter_On">操作円の中心をホバーカーソルに合わせる</string>
     <string name="MainOption_MoveCenter_Off">操作円の中心は画面中央</string>
     <string name="MainOption_MoveCenterReset_Name">操作円の中心を毎回リセット</string>
+    <string name="MainOption_DeXMoveCenterReset_Name">操作円の中心を毎回リセット[DeX]</string>
     <string name="MainOption_MoveCenterReset_On">タッチ後のカーソル座標を操作円の中心にする</string>
     <string name="MainOption_MoveCenterReset_Off">ショートカット起動時から動かさない</string>
     <string name="MainOption_SplitPaintSystem_Name">ペイント - システム</string>
@@ -365,6 +387,9 @@
     <string name="MainConfirmDlg_TransDataMod_Name"    >変形ツールの編集中データ破棄確認</string>
     <string name="MainConfirmDlg_TransDataMod_On"      >表示する</string>
     <string name="MainConfirmDlg_TransDataMod_Off"     >表示しない</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_Name"   >DeX接続時の自動再起動確認</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_On"     >表示する</string>
+    <string name="MainConfirmDlg_RelaunchAtDeX_Off"    >表示しない</string>
 
     <string name="DtPen_Undo">ペン描画</string>
     <string name="DtMove_Undo">プレーンの移動</string>
@@ -1369,6 +1394,8 @@
     <string name="Core_EventOutput_OverwriteDialog">ファイルの上書き確認</string>
     <string name="Core_EventOutput_RoundDialog">移動座標を整数値にまるめますか？</string>
 
+    <string name="ConfirmDlgTitle_RelaunchAtDeX">DeX接続を確認しました。自動再起動を有効にしますか？</string>
+
     <string name="Core_EventMove_FmtIntPos" formatted="false">中心:%4d,%4d 移動:%4d,%4d</string>
     <string name="Core_EventMove_ApplyBeforeExit">移動ツールを終了する前に変換を適用</string>
     <string name="Core_EventMove_NotValid">移動すべき有効なイメージが選択されていない</string>
@@ -1846,6 +1873,8 @@
     <string name="LayerParam_SettingBtn">設定</string>
     <string name="LayerParam_OpacityDesc">レイヤー不透明度</string>
     <string name="LayerParam_OpacitySlider">%4.1f%%</string>
+
+    <string name="restartActivityText">セーブ中です…</string>
 
     <string name="inputCloverCaption">表示名</string>
     <string name="inputCloverDescription">説明</string>

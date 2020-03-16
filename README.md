@@ -8,7 +8,7 @@ Japanese and English versions are available as standard.
 
 ## USAGE
 
-By putting the rewritten resource in the application folder, you can display it using that resource.
+By putting the rewritten 'strings.xml' resource in the application folder, you can display it using that resource.
 (typically placed in /storage/emulated/0/CloverPaint)
 
 
