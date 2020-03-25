@@ -63,6 +63,9 @@
     <string name="MainOption_UIRotate_3">→ Fixed to 270 degrees (Reverse landscape)</string>
     <string name="MainOption_UIScale_Name">UI Scale (requires reboot)</string>
     <string name="MainOption_DeXUIScale_Name">UI Scale (requires reboot)[DeX]</string>
+    <string name="MainOption_ThumbDispType_Name">Display thumbnails of the layer list</string>
+    <string name="MainOption_ThumbDispType_canvas">Show Canvas</string>
+    <string name="MainOption_ThumbDispType_editRect">Show edit bound box</string>
     <string name="MainOption_UseCloverDock_Name">Clover Docking [Requires EfT]</string>
     <string name="MainOption_UseCloverDock_On">Allow docking of Clover shortcut icons (requires reboot)</string>
     <string name="MainOption_UseCloverDock_Off">Don\'t allow docking of Clover shortcut icons (requires reboot)</string>

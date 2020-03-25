@@ -1034,4 +1034,13 @@ It is very comprehensive, support full keyboard and gamepad\n
 \n
     </string>
 
+    <string name="B12561">
+\n
+□ version 1.24.161\n
+\n
+ - Added the edit bound box mode to the layer thumbnail display (can be changed by option)\n
+ - Some other bug fixes and improvements\n
+\n
+    </string>
+
 </resources>

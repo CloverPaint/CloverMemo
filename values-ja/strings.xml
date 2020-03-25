@@ -63,6 +63,9 @@
     <string name="MainOption_UIRotate_3">→270°に固定</string>
     <string name="MainOption_UIScale_Name">UIサイズ調整(*要再起動)</string>
     <string name="MainOption_DeXUIScale_Name">UIサイズ調整(*要再起動)[DeX]</string>
+    <string name="MainOption_ThumbDispType_Name">レイヤーリストのサムネイル表示</string>
+    <string name="MainOption_ThumbDispType_canvas">キャンバスを表示</string>
+    <string name="MainOption_ThumbDispType_editRect">編集枠を表示</string>
     <string name="MainOption_UseCloverDock_Name">Cloverドッキング [要EfT]</string>
     <string name="MainOption_UseCloverDock_On">Cloverショートカットのドッキング機能を利用(*要再起動)</string>
     <string name="MainOption_UseCloverDock_Off">Cloverショートカットのドッキングはしない(*要再起動)</string>
